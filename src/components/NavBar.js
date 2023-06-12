@@ -8,27 +8,41 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <Navbar expand="md" fixed="top" className={styles.NavBar}>
+    <Navbar
+      className={styles.NavBar}
+      expand="md"
+      fixed="top"
+    >
       <Container>
-        <Navbar.Brand className="mr-0">
-          <img src={logo} alt="logo" height="45" />
-        </Navbar.Brand>
-        <Nav className="ml-auto text-left">
-          <NavLink
-            className={styles.NavLink}
-            activeClassName={styles.Active}
-            to="/signin"
-          >
-            <i className="fas fa-sign-in-alt"></i>Sign in
-          </NavLink>
-          <NavLink
-            to="/signup"
-            className={styles.NavLink}
-            activeClassName={styles.Active}
-          >
-            <i className="fas fa-user-plus"></i>Sign up
-          </NavLink>
-        </Nav>
+        <NavLink to="/">
+          <Navbar.Brand className="mr-0">
+            <img src={logo} alt="logo" height="45" />
+            <div className={styles.Slogan}>
+              <span>Welcome to AUTOTRADERSS</span>
+            </div>
+          </Navbar.Brand>
+        </NavLink>
+        <Navbar.Toggle aria-controls="navbar-collapse" />
+        <Navbar.Collapse id="navbar-collapse">
+          <Nav className="ml-auto">
+            <NavLink
+              exact
+              to="/signin"
+              className={styles.NavLink}
+              activeClassName={styles.Active}
+            >
+              <i className="fas fa-sign-in-alt"></i>Sign in
+            </NavLink>
+            <NavLink
+              exact
+              to="/signup"
+              className={styles.NavLink}
+              activeClassName={styles.Active}
+            >
+              <i className="fas fa-user-plus"></i>Sign up
+            </NavLink>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
