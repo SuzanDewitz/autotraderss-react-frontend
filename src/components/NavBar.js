@@ -36,9 +36,9 @@ const NavBar = () => {
     <NavLink
       className={styles.NavLink}
       activeClassName={styles.Active}
-      to="/cars/create"
+      to="/autotraders/create"
     >
-      <i className="far fa-plus-square"></i>Sell Car
+      <i className="far fa-plus-square"></i>Sell Autotrader
     </NavLink>
   );
   const loggedInIcons = (
