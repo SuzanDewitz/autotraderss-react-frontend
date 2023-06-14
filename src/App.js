@@ -15,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/signin" component={SignInForm} />
           <Route exact path="/signup" component={SignUpForm} />
+          <Route exact path="/autotraders/create" render={() => <autotraderCreateForm />} />
           <Route component={NotFound} />
         </Switch>
       </Container> 
