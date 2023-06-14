@@ -26,7 +26,7 @@ function AutotraderCreateForm() {
     image: "",
   });
   const handleChange = (event) => {
-    setCarData({
+    setAutotraderData({
       ...autotraderData,
       [event.target.name]: event.target.value,
     });
