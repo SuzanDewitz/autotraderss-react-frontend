@@ -6,6 +6,7 @@ import "./api/axiosDefaults";
 import SignUpForm from "./pages/auth/SignUpForm";
 import SignInForm from "./pages/auth/SignInForm";
 import NotFound from "./components/NotFound";
+import AutotraderCreateForm from "./pages/autotraders/AutotraderCreateForm";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/signin" component={SignInForm} />
           <Route exact path="/signup" component={SignUpForm} />
-          <Route exact path="/autotraders/create" render={() => <autotraderCreateForm />} />
+          <Route exact path="/autotraders/create" render={() => <AutotraderCreateForm />} />
           <Route component={NotFound} />
         </Switch>
       </Container> 

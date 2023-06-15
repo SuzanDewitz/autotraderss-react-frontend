@@ -1,4 +1,6 @@
-import { useRef, useState } from "react";
+import React, { useState } from "react";
+import { Image } from "react-bootstrap";
+
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
@@ -12,8 +14,6 @@ import appStyles from "../../App.module.css";
 import btnStyles from "../../styles/Button.module.css";
 
 function AutotraderCreateForm() {
-  const [errors, setErrors] = useState({});
-
   const [autotraderData, setAutotraderData] = useState({
     title: "",
     brand: "bmw",
@@ -25,6 +25,7 @@ function AutotraderCreateForm() {
     price: "",
     image: "",
   });
+
   const handleChange = (event) => {
     setAutotraderData({
       ...autotraderData,
@@ -34,12 +35,17 @@ function AutotraderCreateForm() {
 
   const handleChangeImage = (event) => {
     if (event.target.files.length) {
-        URL.revokeObjectURL(image);
+      URL.revokeObjectURL(autotraderData.image);
       setAutotraderData({
         ...autotraderData,
         image: URL.createObjectURL(event.target.files[0]),
       });
     }
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle form submission logic here
   };
 
   const textFields = (
@@ -49,7 +55,7 @@ function AutotraderCreateForm() {
         <Form.Control
           type="text"
           name="title"
-          value={title}
+          value={autotraderData.title}
           onChange={handleChange}
         />
       </Form.Group>
@@ -59,9 +65,11 @@ function AutotraderCreateForm() {
           as="select"
           type="text"
           name="brand"
-          value={brand}
+          value={autotraderData.brand}
           onChange={handleChange}
-        />
+        >
+          {/* Add options here */}
+        </Form.Control>
       </Form.Group>
 
       <Button
@@ -84,10 +92,14 @@ function AutotraderCreateForm() {
             className={`${appStyles.Content} ${styles.Container} d-flex flex-column justify-content-center`}
           >
             <Form.Group className="text-center">
-            {image ? (
+              {autotraderData.image ? (
                 <>
                   <figure>
-                    <Image className={appStyles.Image} src={image} rounded />
+                    <Image
+                      className={appStyles.Image}
+                      src={autotraderData.image}
+                      rounded
+                    />
                   </figure>
                   <div>
                     <Form.Label
@@ -98,19 +110,19 @@ function AutotraderCreateForm() {
                     </Form.Label>
                   </div>
                 </>
-              ) : (   
-              <Form.Label
-                className={`${btnStyles.Button} ${btnStyles.Blue} btn`}
-                htmlFor="image-upload"
-              >
-                <Asset src={Upload} message="Click or tap to upload an image" />
-              </Form.Label>
-                )}
+              ) : (
+                <Form.Label
+                  className={`${btnStyles.Button} ${btnStyles.Blue} btn`}
+                  htmlFor="image-upload"
+                >
+                  <img src={Upload} alt="Upload" /> Click or tap to upload an
+                  image
+                </Form.Label>
+              )}
               <Form.File
                 id="image-upload"
                 accept="image/*"
                 onChange={handleChangeImage}
-                ref={imageInput}
               />
             </Form.Group>
             <div className="d-md-none">{textFields}</div>
