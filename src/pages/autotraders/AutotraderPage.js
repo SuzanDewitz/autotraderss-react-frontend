@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
-
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
-
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import { axiosReq } from "../../api/axiosDefaults";
+import PopularProfiles from "../profiles/PopularProfiles";
 import Autotrader from "./Autotrader";
 
+// Component used to create the complete autotraderpage
+// Imports the Autotrader and Popularprofiles component
+ 
 function AutotraderPage() {
   const { id } = useParams();
   const [autotrader, setAutotrader] = useState({ results: [] });

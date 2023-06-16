@@ -5,32 +5,29 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Alert from "react-bootstrap/Alert";
-
-import Upload from "../../assets/upload.png";
 import styles from "../../styles/AutotraderCreateEditForm.module.css";
 import appStyles from "../../App.module.css";
 import btnStyles from "../../styles/Button.module.css";
-import Asset from "../../components/Asset";
-import { useRef, useState } from "react";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { useEffect, useRef, useState } from "react";
 import { axiosReq } from "../../api/axiosDefaults";
-import { useRedirect } from "../../hooks/useRedirect";
+import {
+  useHistory,
+  useParams,
+} from "react-router-dom/cjs/react-router-dom.min";
 
-// Component used for creating a Autotrader post.
-// Takes input from the user in the forms and post it to the API
-// Includes error handling that shows an alert to the user.
-function AutotraderCreateForm() {
-  useRedirect("loggedOut");
+// Component used for editing an existing autotrader post.
+// Prepopulates the existing data into the form.
+function autotraderEditForm() {
   const [errors, setErrors] = useState({});
-  
+
   const [autotraderData, setAutotraderData] = useState({
     title: "",
-    brand: "bmw",
+    brand: "",
     description: "",
     mileage: "",
     year: "",
-    gearbox: "automatic",
-    fueltype: "petrol",
+    gearbox: "",
+    fueltype: "",
     price: "",
     image: "",
   });
@@ -49,6 +46,45 @@ function AutotraderCreateForm() {
 
   const imageInput = useRef(null);
   const history = useHistory();
+  const { id } = useParams();
+
+  useEffect(() => {
+    const handleMount = async () => {
+      try {
+        const { data } = await axiosReq.get(`/autotraders/${id}/`);
+        const {
+          title,
+          brand,
+          description,
+          mileage,
+          year,
+          gearbox,
+          fueltype,
+          price,
+          image,
+          is_owner,
+        } = data;
+
+        is_owner
+          ? setAutotraderData({
+              title,
+              brand,
+              description,
+              mileage,
+              year,
+              gearbox,
+              fueltype,
+              price,
+              image,
+            })
+          : history.push("/");
+      } catch (err) {
+      //console.log(err);
+    }
+    };
+
+    handleMount();
+  }, [history, id]);
 
   const handleChange = (event) => {
     setAutotraderData({
@@ -70,7 +106,7 @@ function AutotraderCreateForm() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData();
-  
+
     formData.append("title", title);
     formData.append("brand", brand);
     formData.append("description", description);
@@ -79,19 +115,20 @@ function AutotraderCreateForm() {
     formData.append("gearbox", gearbox);
     formData.append("fueltype", fueltype);
     formData.append("price", price);
-    formData.append("image", imageInput.current.files[0]);
-  
+    if (imageInput?.current?.files[0]) {
+      formData.append("image", imageInput.current.files[0]);
+    }
     try {
-      const { data } = await axiosReq.post("/autotraders/", formData);
-      history.push(`/autotraders/${data.id}`);
-    } catch (error) {
-      //console.log(error);
-      if (error.response?.status !== 401) {
-        setErrors(error.response?.data);
+      await axiosReq.put(`/autotraders/${id}/`, formData);
+      history.push(`/autotraders/${id}`);
+    } catch (err) {
+      //console.log(err);
+      if (err.response?.status !== 401) {
+        setErrors(err.response?.data);
       }
     }
-  };  
-  
+  };
+
   const textFields = (
     <div className="text-center">
       <Form.Group>
@@ -104,38 +141,6 @@ function AutotraderCreateForm() {
         />
       </Form.Group>
       {errors?.title?.map((message, idx) => (
-        <Alert variant="warning" key={idx}>
-          {message}
-        </Alert>
-      ))}
-
-      <Form.Group>
-        <Form.Label>Brand</Form.Label>
-        <Form.Control
-          as="select"
-          type="text"
-          name="brand"
-          value={brand}
-          onChange={handleChange}
-        >
-          <option value="bmw">Bmw</option>
-          <option value="mercedes-benz">Mercedes-benz</option>
-          <option value="audi">Audi</option>
-          <option value="volkswagen">Volkswagen</option>
-          <option value="volvo">Volvo</option>
-          <option value="ford">Ford</option>
-          <option value="toyota">Toyota</option>
-          <option value="honda">Honda</option>
-          <option value="nissan">Nissan</option>
-          <option value="mazda">Mazda</option>
-          <option value="tesla">Tesla</option>
-          <option value="renault">Renault</option>
-          <option value="peugeot">Peugeot</option>
-        </Form.Control>
-      </Form.Group>
-      
-
-      {errors?.content?.map((message, idx) => (
         <Alert variant="warning" key={idx}>
           {message}
         </Alert>
@@ -187,6 +192,7 @@ function AutotraderCreateForm() {
         <Form.Control
           type="number"
           min="0"
+          step="100.00"
           name="mileage"
           value={mileage}
           onChange={handleChange}
@@ -264,11 +270,10 @@ function AutotraderCreateForm() {
         cancel
       </Button>
       <Button className={`${btnStyles.Button} ${btnStyles.Blue}`} type="submit">
-        create
+        save
       </Button>
     </div>
   );
-
 
   return (
     <Form onSubmit={handleSubmit}>
@@ -278,34 +283,17 @@ function AutotraderCreateForm() {
             className={`${appStyles.Content} ${styles.Container} d-flex flex-column justify-content-center`}
           >
             <Form.Group className="text-center">
-              {image ? (
-                <>
-                  <figure>
-                    <Image
-                      className={appStyles.Image}
-                      src={image}
-                      rounded
-                    />
-                  </figure>
-                  <div>
-                    <Form.Label
-                      className={`${btnStyles.Button} ${btnStyles.Blue} btn`}
-                      htmlFor="image-upload"
-                    >
-                      Change the image
-                    </Form.Label>
-                  </div>
-                </>
-              ) : (
+              <figure>
+                <Image className={appStyles.Image} src={image} rounded />
+              </figure>
+              <div>
                 <Form.Label
-                  className="d-flex justify-content-center"
+                  className={`${btnStyles.Button} ${btnStyles.Blue} btn`}
                   htmlFor="image-upload"
-                ><Asset
-                src={Upload}
-                message="Click or tap to upload an image"
-              />
-            </Form.Label>
-           )}
+                >
+                  Change the image
+                </Form.Label>
+              </div>
 
               <Form.File
                 id="image-upload"
@@ -331,4 +319,4 @@ function AutotraderCreateForm() {
   );
 }
 
-export default AutotraderCreateForm;
+export default AutotraderEditForm;
