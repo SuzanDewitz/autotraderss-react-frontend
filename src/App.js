@@ -7,8 +7,8 @@ import "./api/axiosDefaults";
 import SignUpForm from "./pages/auth/SignUpForm";
 import SignInForm from "./pages/auth/SignInForm";
 import AutotraderPage from "./pages/autotraders/AutotraderPage";
-//import AutotradersList from "./pages/autotraders/AutotradersList";
-//import { useCurrentUser } from "./contexts/CurrentUserContext";
+import AutotradersList from "./pages/autotraders/AutotradersList";
+import { useCurrentUser } from "./contexts/CurrentUserContext";
 //import AutotraderEditForm from "./pages/autotraders/AutotraderEditForm";
 //import ProfilePage from "./pages/profiles/ProfilePage";
 //import UsernameForm from "./pages/profiles/UsernameForm";
@@ -17,11 +17,40 @@ import AutotraderPage from "./pages/autotraders/AutotraderPage";
 //import NotFound from "./components/NotFound";
 
 function App() {
+  const currentUser = useCurrentUser();
+  const profile_id = currentUser?.profile_id || "";
   return (
     <div className={styles.App}>
       <NavBar />
       <Container className={styles.Main}>
         <Switch>
+        <Route
+            exact
+            path="/"
+            render={() => (
+              <AutotradersList message="No results found, adjust the search keyword." />
+            )}
+          />
+          <Route
+            exact
+            path="/feed"
+            render={() => (
+              <AutotradersList
+                message="No results found, adjust the search keyword or follow a user."
+                filter={`owner__followed__owner__profile=${profile_id}&`}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/saved"
+            render={() => (
+              <AutotradersList
+                message="No results found, adjust the search keyword or save a car."
+                filter={`saved__owner__profile=${profile_id}&ordering=-saved__created_at&`}
+              />
+            )}
+          />
           <Route exact path="/signin" component={SignInForm} />
           <Route exact path="/signup" component={SignUpForm} />
           <Route exact path="/autotraders/create" render={() => <AutotraderCreateForm />} />

@@ -31,7 +31,7 @@ function Autotrader(props) {
     price,
     image,
     updated_at,
-    AutotraderPage,
+    autotraderPage,
     setAutotraders,
   } = props;
 
@@ -50,7 +50,7 @@ function Autotrader(props) {
         }),
       }));
     } catch (err) {
-      //console.log(err);
+      console.log(err);
     }
   };
 

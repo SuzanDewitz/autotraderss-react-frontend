@@ -3,17 +3,17 @@ import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
+//import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import { axiosReq } from "../../api/axiosDefaults";
 import Asset from "../../components/Asset";
 import AutotraderList from "./AutotraderList";
 import NoResults from "../../assets/no-results.png";
 import appStyles from "../../App.module.css";
 import styles from "../../styles/AutotradersList.module.css";
-import InfiniteScroll from "react-infinite-scroll-component";
-import { fetchMoreData } from "../../utils/utils";
-import PopularProfiles from "../profiles/PopularProfiles";
-import { useCurrentUser } from "../../contexts/CurrentUserContext";
+//import InfiniteScroll from "react-infinite-scroll-component";
+//import { fetchMoreData } from "../../utils/utils";
+//import PopularProfiles from "../profiles/PopularProfiles";
+//import { useCurrentUser } from "../../contexts/CurrentUserContext";
 
 // Imports the Autotrader component to genereate the list of Autotraders for sale on the main page.
 function AutotradersList({ message, filter = "" }) {
@@ -30,7 +30,7 @@ function AutotradersList({ message, filter = "" }) {
         setAutotraders(data);
         setHasLoaded(true);
       } catch (err) {
-        //console.log(err);
+        console.log(err);
       }
     };
 
