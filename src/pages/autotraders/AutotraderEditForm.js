@@ -17,7 +17,7 @@ import {
 
 // Component used for editing an existing autotrader post.
 // Prepopulates the existing data into the form.
-function autotraderEditForm() {
+function AutotraderEditForm() {
   const [errors, setErrors] = useState({});
 
   const [autotraderData, setAutotraderData] = useState({
