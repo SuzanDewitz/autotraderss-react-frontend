@@ -31,7 +31,7 @@
 + [User Experience (UX)](#user-experience-ux)
 
   - [User Stories](#user-stories)
-  - [Agile Methodology](#agile methodology)
+ - [Agile_methodology](#agile methodology)
   - [Design](#design)
   - [Wireframes](#wireframes)
 + [Future](#future)
