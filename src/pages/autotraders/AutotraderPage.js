@@ -8,8 +8,7 @@ import Autotrader from "./Autotrader";
 
 // Component used to create the complete autotraderpage
 // Imports the Autotrader and Popularprofiles component
- 
-function AutotraderPage() {
+ function AutotraderPage() {
   const { id } = useParams();
   const [autotrader, setAutotrader] = useState({ results: [] });
 
