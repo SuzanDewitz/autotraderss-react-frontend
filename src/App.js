@@ -57,13 +57,19 @@ function App() {
           <Route exact path="/autotraders/:id" render={() => <AutotraderPage />} />
           <Route exact path="/autotraders/:id/edit" render={() => <AutotraderEditForm />} />
           <Route exact path="/profiles/:id" render={() => <ProfilePage />} />
-          </Switch>
+          <Route
+            exact
+            path="/profiles/:id/edit"
+            render={() => <ProfileEditForm />}
+          />
+
+        </Switch>
       </Container>
     </div>
   );
 }
 
-export default App;    
+export default App;
 
 
 
