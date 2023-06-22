@@ -9,7 +9,7 @@ import SignInForm from "./pages/auth/SignInForm";
 import AutotraderPage from "./pages/autotraders/AutotraderPage";
 import AutotradersList from "./pages/autotraders/AutotradersList";
 import { useCurrentUser } from "./contexts/CurrentUserContext";
-//import AutotraderEditForm from "./pages/autotraders/AutotraderEditForm";
+import AutotraderEditForm from "./pages/autotraders/AutotraderEditForm";
 //import ProfilePage from "./pages/profiles/ProfilePage";
 //import UsernameForm from "./pages/profiles/UsernameForm";
 //import UserPasswordForm from "./pages/profiles/UserPasswordForm";
