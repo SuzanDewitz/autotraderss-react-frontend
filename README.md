@@ -31,7 +31,7 @@
 + [User Experience (UX)](#user-experience-ux)
 
   - [User Stories](#user-stories)
- - [Agile_methodology](#agile methodology)
+  - [Agile methodology](#agile-methodology)
   - [Design](#design)
   - [Wireframes](#wireframes)
 + [Future](#future)
@@ -125,18 +125,89 @@
 
 <br>
 
-## Autotraders Detail page
+## Autotraders Detail Page:
 
-- Contains more detailed information about the autotrader.
-- Includes links for the post owner to update or delete the post.
+- Presents a wealth of detailed information regarding the autotrader, enabling users to gain a comprehensive understanding of its specifications, features, and condition.
+- Equips the post owner with convenient and easily accessible links to effortlessly update or delete the post, empowering them with seamless control and management over their listings.
 
 
 <br>
 
 ##  Autotraders Edit page
 
+- Provides capability to update an existing autotrader post.
+
+## Profile page
+- The profile page offers sellers a valuable opportunity to effectively showcase and present their company to users. It serves as a platform where sellers can highlight their company's unique features, strengths, and offerings, allowing them to make a compelling impression on potential customers.
 
 <br>
+
+## Edit Profile
+
+-The "Edit Profile" feature enables sellers to effortlessly update their existing information. It provides a user-friendly interface where sellers can make modifications to their profiles, ensuring that their information remains accurate and up to date. 
+- This functionality allows sellers to maintain relevancy and present the most current and relevant details about their business to potential customers.
+
+
 <br>
+
+## Feed Page
+
+- The Feed page presents a curated collection of cars for sale, specifically tailored to the user's preferences. It showcases vehicles listed by the sellers whom the user is following. By aggregating and displaying these listings, the Feed page offers a convenient and centralized platform for users to stay up to date with the latest inventory from their preferred sellers.
+- This ensures that users never miss out on exciting car opportunities and allows them to effortlessly browse through a personalized selection of vehicles that match their interests.
+
 <br>
+
+## Saved Page
+
+-The Saved page serves as a dedicated space where users can conveniently access and view all the cars they have saved. It acts as a personalized collection, allowing users to keep track of vehicles that have caught their interest or that they intend to revisit later. 
+-By providing a centralized location for saved cars, this page ensures that users can easily retrieve and review their preferred selections, simplifying the process of comparing and considering options when making purchasing decisions.
+
 <br>
+
+## Future Features
+
+-Enhanced Search Options and Filters: Expand the search capabilities by incorporating additional search options and filters based on various criteria. This will empower users to refine their search results and find cars that precisely meet their specific requirements.
+
+-Rating System for Buyers and Sellers: Introduce a rating system that enables buyers to rate their experiences with sellers. This feature promotes trust and credibility within the service, providing valuable feedback to other users and helping them make informed decisions when engaging with sellers.
+
+-Location Algorithm for Local Searches: Implement a location-based algorithm that allows users to search for cars and sellers within a certain distance from their specified location. This functionality enhances convenience by enabling users to find nearby options and facilitates localized transactions.
+
+-Image Gallery Functionality: Integrate an image gallery feature that allows sellers to upload multiple pictures of their cars. This expanded visual representation provides potential buyers with a more comprehensive view of the vehicles, aiding in their decision-making process.
+
+-Different Registration Roles: Enhance the registration process by introducing different roles based on whether users are representing a company or are private individuals. This distinction allows for tailored experiences, features, and functionalities based on the specific needs and preferences of different user types.
+
+<br>
+
+## Technologies Used
+
+ - Languages
+    - JavaScript
+    - HTML5
+    - CSS3
+      
+  <br>
+  
+ ## Frameworks, Libraries & Programs Used   
+- [React](https://react.dev/) - Front-end JavaScript library for building user interfaces based on UI components.
+
+- [React Bootstrap](https://react-bootstrap.github.io/) - Component-based library that provides native Bootstrap components as pure React components. Used to create a responsive application/component UI.
+
+- [Axios](https://axios-http.com/) - Promise-based HTTP client for the browser and Node.js. Used to make HTTP requests from throughout the application.
+
+- jwt-decode - Used to decode and extract information from a JWT token.
+
+- react-router-dom - Routing library for the React JavaScript library. Used to display 
+ different components based on the URL entered in the browser.
+
+- drawSQL - Tool used to create Database Schema/ERD.
+
+- Git: Version control system used for tracking changes in the source code, with commits and 
+   pushes made using the terminal.
+- [GitHub](https://github.com/): Platform used to store the project's code after being pushed from Git.
+ -  [GitHub](https://github.com/): - GitHub is used to store the projects code after being pushed from Git.
+
++ The following modules were installed or enabled in Gitpod to assist with formatting and code linting:
+
+- [ESLint](https://eslint.org/) - A code linter that identifies and reports patterns or coding errors in the codebase.
+- [Prettier](https://prettier.io/): An opinionated code formatter that helps maintain consistent code style across the project.
+ 
