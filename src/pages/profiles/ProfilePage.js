@@ -22,9 +22,9 @@ import { fetchMoreData } from "../../utils/utils";
 import NoResults from "../../assets/no-results.png";
 import { ProfileEditDropdown } from "../../components/MoreDropdown";
 
-/* Component that shows all the informtaion about a profile owner. 
-Includes the functionality for showing all autotraders sold by the user
-and follower/following stats. */
+/*A component that displays comprehensive information about a profile owner.
+This component includes functionality to showcase all the autotraders sold by the user,
+as well as follower/following statistics.*/
 const ProfilePage = () => {
   const [hasLoaded, setHasLoaded] = useState(false);
   const currentUser = useCurrentUser();
