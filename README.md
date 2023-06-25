@@ -88,6 +88,80 @@
 
 ## Design
 
+<br>
+
+|                   | AutoTrader Vehicle Marketplace |
+|-------------------|-------------------------------|
+| Sign Up           | Sign In                       |
+| Profile           | Feed                          |
+| Search            | Saved                         |
+| Listings          | Dealership                    |
+| Details           | Follow                        |
+
+
+<br>
+
+![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/774d8f41-0807-4b95-b63c-f4a2741cb69c)
+
+
+<br>
+
+API Integrations:
+The "API Integrations" component represents the connections between the backend and frontend systems through APIs. It includes the integration points involved in your Autotrader marketplace, such as Autotrader data retrieval from external sources or communication between the frontend and backend servers.
+
+Integration Points:
+The "Integration Points" section highlights three types of integrations in your Autotrader marketplace:
+
+1. Backend-Frontend API:
+   Describe the API connection between the backend and frontend systems in your project. This may include data exchange, communication, or any other integration points specific to your application architecture.
+
+2. External Data Sources:
+  the retrieves data from external sources, such as Autotrader details or pricing information, mention them here. Specify the types of data sources and their role in providing information to your application.
+
+3. Third-Party APIs:
+   the incorporates third-party APIs for additional functionalities, such as geolocation services, image processing, mention them in this section.
+
+Key Features:
+The "Key Features" section highlights the main features or functionalities that make the Autotrader marketplace unique and appealing to users.
+
+1. Advanced Search:
+   Describe any advanced search functionality that allows users to search for Autotrader based on various criteria such as make, model, year, price range, location, etc.
+
+2. User Profiles:
+   Explain how users can create profiles and manage their information, including personal details, saved searches, and favorite Autotrader.
+
+3. Autotrader Listings:
+   Highlight the ability for users to create listings to sell their used cars, and for visitors to browse and view detailed information about available cars.
+
+4. Saved Favorites:
+   Emphasize the feature that enables users to save their favorite Autotrader and easily access them later for quick reference.
+
+5. Follow Dealerships:
+   Describe how users can choose to follow specific car dealerships on Autotrader to stay updated on their latest inventory and offerings.
+
+User Roles:
+The "User Roles" section highlights five different user roles in your Autotrader marketplace:
+
+1. Visitor:
+   Represents users who are not logged in to the platform. They can browse and search for Autotrader but have limited access to certain features and functionalities.
+
+2. Buyer:
+   Represents users who are interested in purchasing an Autotrader from the marketplace. They can view Autotrader listings, save favorites, and contact sellers.
+
+3. Seller:
+   Represents users who want to sell their used Autotrader on the platform. They can create and manage their listings, communicate with potential buyers, and complete sales transactions.
+
+4. Registered User:
+   Represents users who have registered and created an account on the Autotrader marketplace. They have additional benefits such as personalized profiles, saved searches, and enhanced communication features.
+
+5. Admin:
+   Represents the administrative role or staff members who have special privileges to manage and moderate the platform, including user management, listing verification, and handling disputes.
+
+Contact Us:
+The "Contact Us" section includes contact details for users to get in touch with the Autotrader marketplace. an email address, phone number, and address.
+
+<br>
+
 ### Color Scheme 
 
 - I have opted for a minimalist design approach for the website, aiming to emphasize the content and detailed information to provide an exceptional user experience. By utilizing a clean and uncluttered design, the focus remains on delivering valuable information to users.
