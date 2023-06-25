@@ -169,7 +169,10 @@ The "Contact Us" section includes contact details for users to get in touch with
 - The primary color chosen for the website is rgb(49, 49, 156), which exudes a sense of tranquility and reliability. This carefully selected color scheme aims to instill trust and confidence in users, ensuring a positive interaction with the platform.
 
 - By employing a minimalistic design and utilizing a calming color palette, we strive to create a visually appealing and user-centric website that allows the content to shine and fosters a trustworthy environment for our users.
+ 
+<br>
 
+[Back to top](#top)
 
 <br>
 
@@ -381,3 +384,4 @@ I would like to express my sincere gratitude to the following individuals and co
 
 I am deeply grateful to all those mentioned above and anyone else who has contributed in their own way to the development of this project. Your support and encouragement have made a significant difference. Thank you!
 
+[Back to top](#top)
