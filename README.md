@@ -101,7 +101,9 @@
 
 <br>
 
-![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/774d8f41-0807-4b95-b63c-f4a2741cb69c)
+
+![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/0a12ff39-7396-4742-a940-f36e4d58036a)
+
 
 
 <br>
