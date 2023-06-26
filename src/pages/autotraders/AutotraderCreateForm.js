@@ -21,6 +21,7 @@ import { useRedirect } from "../../hooks/useRedirect";
 // Includes error handling that shows an alert to the user.
 function AutotraderCreateForm() {
   useRedirect("loggedOut");
+  
   const [errors, setErrors] = useState({});
   
   const [autotraderData, setAutotraderData] = useState({
@@ -133,40 +134,8 @@ function AutotraderCreateForm() {
           <option value="peugeot">Peugeot</option>
         </Form.Control>
       </Form.Group>
-      
 
-      {errors?.content?.map((message, idx) => (
-        <Alert variant="warning" key={idx}>
-          {message}
-        </Alert>
-      ))}
-
-      <Form.Group>
-        <Form.Label>Brand</Form.Label>
-        <Form.Control
-          as="select"
-          type="text"
-          name="brand"
-          value={brand}
-          onChange={handleChange}
-        >
-          <option value="bmw">Bmw</option>
-          <option value="mercedes-benz">Mercedes-benz</option>
-          <option value="audi">Audi</option>
-          <option value="volkswagen">Volkswagen</option>
-          <option value="volvo">Volvo</option>
-          <option value="ford">Ford</option>
-          <option value="toyota">Toyota</option>
-          <option value="honda">Honda</option>
-          <option value="nissan">Nissan</option>
-          <option value="mazda">Mazda</option>
-          <option value="tesla">Tesla</option>
-          <option value="renault">Renault</option>
-          <option value="peugeot">Peugeot</option>
-        </Form.Control>
-      </Form.Group>
-
-      <Form.Group>
+     <Form.Group>
         <Form.Label>Description</Form.Label>
         <Form.Control
           as="textarea"
@@ -269,7 +238,6 @@ function AutotraderCreateForm() {
     </div>
   );
 
-
   return (
     <Form onSubmit={handleSubmit}>
       <Row>
@@ -281,11 +249,7 @@ function AutotraderCreateForm() {
               {image ? (
                 <>
                   <figure>
-                    <Image
-                      className={appStyles.Image}
-                      src={image}
-                      rounded
-                    />
+                    <Image className={appStyles.Image} src={image} rounded />
                   </figure>
                   <div>
                     <Form.Label
@@ -300,7 +264,8 @@ function AutotraderCreateForm() {
                 <Form.Label
                   className="d-flex justify-content-center"
                   htmlFor="image-upload"
-                ><Asset
+                >
+                  <Asset
                 src={Upload}
                 message="Click or tap to upload an image"
               />
@@ -319,7 +284,6 @@ function AutotraderCreateForm() {
                 {message}
               </Alert>
             ))}
-
             <div className="d-md-none">{textFields}</div>
           </Container>
         </Col>
