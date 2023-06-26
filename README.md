@@ -88,6 +88,82 @@
 
 ## Design
 
+<br>
+
+|                   | AutoTrader Vehicle Marketplace |
+|-------------------|-------------------------------|
+| Sign Up           | Sign In                       |
+| Profile           | Feed                          |
+| Search            | Saved                         |
+| Listings          | Dealership                    |
+| Details           | Follow                        |
+
+
+<br>
+
+
+![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/0a12ff39-7396-4742-a940-f36e4d58036a)
+
+
+
+<br>
+
+API Integrations:
+The "API Integrations" component represents the connections between the backend and frontend systems through APIs. It includes the integration points involved in your Autotrader marketplace, such as Autotrader data retrieval from external sources or communication between the frontend and backend servers.
+
+Integration Points:
+The "Integration Points" section highlights three types of integrations in your Autotrader marketplace:
+
+1. Backend-Frontend API:
+   Describe the API connection between the backend and frontend systems in your project. This may include data exchange, communication, or any other integration points specific to your application architecture.
+
+2. External Data Sources:
+  the retrieves data from external sources, such as Autotrader details or pricing information, mention them here. Specify the types of data sources and their role in providing information to your application.
+
+3. Third-Party APIs:
+   the incorporates third-party APIs for additional functionalities, such as geolocation services, image processing, mention them in this section.
+
+Key Features:
+The "Key Features" section highlights the main features or functionalities that make the Autotrader marketplace unique and appealing to users.
+
+1. Advanced Search:
+   Describe any advanced search functionality that allows users to search for Autotrader based on various criteria such as make, model, year, price range, location, etc.
+
+2. User Profiles:
+   Explain how users can create profiles and manage their information, including personal details, saved searches, and favorite Autotrader.
+
+3. Autotrader Listings:
+   Highlight the ability for users to create listings to sell their used cars, and for visitors to browse and view detailed information about available cars.
+
+4. Saved Favorites:
+   Emphasize the feature that enables users to save their favorite Autotrader and easily access them later for quick reference.
+
+5. Follow Dealerships:
+   Describe how users can choose to follow specific car dealerships on Autotrader to stay updated on their latest inventory and offerings.
+
+User Roles:
+The "User Roles" section highlights five different user roles in your Autotrader marketplace:
+
+1. Visitor:
+   Represents users who are not logged in to the platform. They can browse and search for Autotrader but have limited access to certain features and functionalities.
+
+2. Buyer:
+   Represents users who are interested in purchasing an Autotrader from the marketplace. They can view Autotrader listings, save favorites, and contact sellers.
+
+3. Seller:
+   Represents users who want to sell their used Autotrader on the platform. They can create and manage their listings, communicate with potential buyers, and complete sales transactions.
+
+4. Registered User:
+   Represents users who have registered and created an account on the Autotrader marketplace. They have additional benefits such as personalized profiles, saved searches, and enhanced communication features.
+
+5. Admin:
+   Represents the administrative role or staff members who have special privileges to manage and moderate the platform, including user management, listing verification, and handling disputes.
+
+Contact Us:
+The "Contact Us" section includes contact details for users to get in touch with the Autotrader marketplace. an email address, phone number, and address.
+
+<br>
+
 ### Color Scheme 
 
 - I have opted for a minimalist design approach for the website, aiming to emphasize the content and detailed information to provide an exceptional user experience. By utilizing a clean and uncluttered design, the focus remains on delivering valuable information to users.
@@ -95,7 +171,10 @@
 - The primary color chosen for the website is rgb(49, 49, 156), which exudes a sense of tranquility and reliability. This carefully selected color scheme aims to instill trust and confidence in users, ensuring a positive interaction with the platform.
 
 - By employing a minimalistic design and utilizing a calming color palette, we strive to create a visually appealing and user-centric website that allows the content to shine and fosters a trustworthy environment for our users.
+ 
+<br>
 
+[Back to top](#top)
 
 <br>
 
@@ -194,20 +273,117 @@
 
 - [Axios](https://axios-http.com/) - Promise-based HTTP client for the browser and Node.js. Used to make HTTP requests from throughout the application.
 
-- jwt-decode - Used to decode and extract information from a JWT token.
+- [jwt-decode](https://github.com/auth0/jwt-decode) - Used to decode and extract information from a JWT token.
 
-- react-router-dom - Routing library for the React JavaScript library. Used to display 
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Routing library for the React JavaScript library. Used to display 
  different components based on the URL entered in the browser.
 
-- drawSQL - Tool used to create Database Schema/ERD.
+- [drawSQL](https://drawsql.app/) - Tool used to create Database Schema/ERD.
 
-- Git: Version control system used for tracking changes in the source code, with commits and 
-   pushes made using the terminal.
+- Git: Version control system used for tracking changes in the source code, with commits and pushes made using the terminal.
 - [GitHub](https://github.com/): Platform used to store the project's code after being pushed from Git.
- -  [GitHub](https://github.com/): - GitHub is used to store the projects code after being pushed from Git.
-
+ 
 + The following modules were installed or enabled in Gitpod to assist with formatting and code linting:
 
 - [ESLint](https://eslint.org/) - A code linter that identifies and reports patterns or coding errors in the codebase.
 - [Prettier](https://prettier.io/): An opinionated code formatter that helps maintain consistent code style across the project.
+
+  <br>
+  
+  ## Testing
+   - A separate document for testing can be found here.
+
+### Bugs
+#### Fixed Bugs
+  - Click here to view a list of fixed bugs that has been completed.
+#### Remaining Bugs
+  - No known remaining bugs.
+
+  - 
+## Deployment
+
+To deploy the project, follow these steps:
+
+1. **Forking the GitHub Repository**
+
+   - Go to the project repository.
+   - In the top-right corner of the page, click the "Fork" button.
+   - This will create a copy of the repository in your own GitHub account.
+
+2. **Running the project locally**
+
+   - Go to the project repository.
+   - Click on the "Code" button.
+   - Choose one of the three options (HTTPS, SSH, or GitHub CLI), and click copy.
+   - Open your IDE program and launch the terminal.
+   - Type `git clone` and paste the copied URL from step 3.
+   - Press Enter, and the local clone of the project will be created.
+
+   Alternatively, you can use Gitpod:
+
+   - Go to the project repository.
+   - Click the green button that says "Gitpod" to open the project in Gitpod.
+
+3. **Deploying with Heroku**
+
+   To deploy your project using Heroku, follow the steps below based on the Code Institute tutorial:
+
+   - In the Gitpod CLI, run the following command to create the necessary files for Heroku to install project dependencies:
+     ```
+     pip3 freeze --local > requirements.txt
+     ```
+     *Note: Make sure to add the `requirements.txt` file to your `.gitignore` file to prevent it from being committed.*
+
+   - Visit Heroku.com and log in. If you don't have an account, you will need to create one.
+   - Click the "New" dropdown and select "Create New App".
+   - Enter a unique name for your project. Heroku apps require a unique name, and you may be prompted to change it if it's already taken.
+
+4. **Heroku Deployment**
+
+   In the Heroku dashboard, follow these steps:
+
+   - Go to the "Deploy" tab.
+   - Connect your Heroku account to your GitHub Repository by following these steps:
+     - Click on the "Connect to GitHub" button.
+     - Enter the name of your GitHub repository and click on "Search".
+     - Choose the correct repository for your application and click on "Connect".
+   - Choose your preferred deployment method: manual or automatic.
+     - Automatic deployment generates a new application every time you push a change to GitHub.
+     - Manual deployment requires you to push the "Deploy Branch" button whenever you want a change to be made.
+   - Once you have chosen your deployment method and clicked "Deploy Branch", Heroku will build your application.
+   - Finally, you should see the "View" button. Click on it to open your deployed application.
+  
+## Credits
+
+- **Online Documentation**
+  - React documentation
+  - React Bootstrap documentation and examples
+
+- **Code**
+  - The Moments tutorial by Code Institute was used to create the foundations on which I built upon to create the project.
+
+- **Media**
+  - The images used throughout the project are from
+  - [autohaus24](www.autohaus24.de)
+  - [sixtcarsales](https://www.sixtcarsales.de/)
+  - [ebay](www.ebay.de)
+
+## Acknowledgements
  
+I would like to express my sincere gratitude to the following individuals and communities who have been instrumental in the success of this project:
+
+- **My Husband**: I would like to extend my deepest appreciation to my husband, <a href="#" style="color: blue; text-decoration: none;">Dietmar Dewitz</a>, for his unwavering support, encouragement, and guidance throughout the development of all my projects. His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
+ 
+ - **my husband's colleagues**: I would also like to express my sincere gratitude to <a href="#" style="color: blue; text-decoration: none;">Praveen Kasam</a>, one of my husband's colleagues, for his time and effort in reviewing my projects. His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
+
+- **Student Care Team**: I extend my heartfelt appreciation to the dedicated members of the Student Care Team who have provided guidance, assistance, and support during my studies. Their expertise and responsiveness have been crucial in overcoming challenges and ensuring a smooth learning experience.
+
+- **Slack Community**: I would like to thank the vibrant and supportive Slack Community for their valuable contributions. The willingness of its members to share knowledge, provide feedback, and engage in meaningful discussions has played a significant role in my personal and professional growth.
+
+- **Classmates**: A special mention goes to my classmates, who have been an incredible source of inspiration and collaboration. The shared experiences, discussions, and feedback have greatly enriched my learning and development.
+
+- **Tutor**: I extend my heartfelt appreciation to my tutor for their expertise, guidance, and valuable feedback. Their dedication and commitment to helping me succeed have been instrumental in shaping this project.
+
+I am deeply grateful to all those mentioned above and anyone else who has contributed in their own way to the development of this project. Your support and encouragement have made a significant difference. Thank you!
+
+[Back to top](#top)
