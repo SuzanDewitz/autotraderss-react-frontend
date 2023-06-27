@@ -73,4 +73,4 @@ The Lighthouse Scores showed an overall high performance in terms of accessibili
 
 The website was thoroughly tested using the [responsivetesttool.](https://responsivetesttool.com/)
 
-Return to [README.md](README.md)
+Return to [README.md](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/README.md)
