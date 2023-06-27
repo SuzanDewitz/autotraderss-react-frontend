@@ -99,7 +99,7 @@ const NavBar = () => {
           <Navbar.Brand className="mr-0">
             <img src={logo} alt="logo" height="45" />
             <div className={styles.Slogan}>
-              <span>Autotrader - Car Marketplace</span>
+            <span>Welcome to AUTOTRADERSS</span>
             </div>
           </Navbar.Brand>
         </NavLink>
