@@ -58,7 +58,7 @@ function AutotradersList({ message, filter = "" }) {
             onChange={(event) => setQuery(event.target.value)}
             type="text"
             className="mr-sm-2"
-            placeholder="Search for autotraders"
+            placeholder="Find cars on Autotrader"
           />
         </Form>
         {hasLoaded ? (
