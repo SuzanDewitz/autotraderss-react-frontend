@@ -5,8 +5,6 @@
 <br>
 
 
- ![image](./docs/img/features/amiresponsive.png)
-
 
 <p align="center">
   <img src="./docs/img/features/amiresponsive.png" alt="amiresponsive">
@@ -105,14 +103,11 @@
 - I have made the decision to adopt a minimalistic design approach for the website. This choice aims to enhance the visibility of the site's content and detailed information, allowing them to captivate users more effectively.
 
 - The primary color utilized is rgb(49, 49, 156), which conveys a sense of tranquility and reliability. By employing this calm and trustworthy color, we aim to establish a foundation of trust with the user
-
- ![image](./docs/img/features/color_scheme.png) 
+   
  
-   <p align="center">
-  <img src="../autotraderss-react-frontend/docs/assets/features/color_scheme.jpg" alt="Color Scheme">
+<p align="center">
+  <img src="./docs/img/features/color_scheme.png" alt="color_scheme">
 </p>
- 
-
 
 <br>
 
@@ -217,31 +212,99 @@ The "Contact Us" section includes contact details for users to get in touch with
 Overall, the combination of a well-designed navbar and search functionality enhances the user experience by providing intuitive navigation and efficient access to desired content.
 
 <p align="center">
-  <img src="../docs/assets/features/nav_searchbar.jpg" alt="Navbar & Search">
+  <img src="../docs/nav_searchbar.jpg" alt="Navbar & Search">
 </p>
 
 ![image](./docs/img/features/nav_searchbar.png)
 
 <br>
 
-## Autotraders List page
+## Autotraders Listings:
 
-- Shows all the autotraders listings.
-- Provides the vital information about each autotrader.
+-  The autotraders listings section showcases a comprehensive collection of available autotraders. It serves as a centralized platform for users to browse and explore various autotraders that are currently on the market. By aggregating a wide range of autotrader listings, it offers convenience and ease of access for potential buyers or interested individuals looking to explore different options.
+
+- Vital Information:
+Each autotrader listing within the platform provides vital information to assist users in making informed decisions. This information typically includes essential details about the autotrader, such as:
+
+1. Vehicle Specifications: The autotrader listing provides key details about the vehicle, such as the make, model, year of manufacture, mileage, engine type, and any additional features or modifications.
+
+2. Pricing: The listing displays the price of the autotrader, helping users evaluate whether it fits within their budget or price range.
+
+3. Condition: The condition of the autotrader, whether it's new, used, or certified pre-owned, is often indicated. This allows users to consider the overall state and potential wear and tear of the vehicle.
+
+4. Seller Contact Information: Contact details for the seller or dealership are typically provided, enabling interested users to reach out for further inquiries or to arrange a viewing or test drive.
+
+5. Vehicle History: In some cases, autotrader listings may include the vehicle's history, such as accident reports, service records, or previous ownership details. This information offers insights into the autotrader's background and can influence the buyer's decision-making process.
+
+By presenting these vital details within each autotrader listing, the platform aims to empower users with the necessary information to compare, evaluate, and make an informed choice when considering an autotrader purchase.
+
+<br>
+
+![image](./docs/img/features/autotraderlist_page.png)
+
 
 <br>
 
 ## Autotraders Detail Page:
 
-- Presents a wealth of detailed information regarding the autotrader, enabling users to gain a comprehensive understanding of its specifications, features, and condition.
-- Equips the post owner with convenient and easily accessible links to effortlessly update or delete the post, empowering them with seamless control and management over their listings.
+- Autotraders Detail Page:
+The Autotraders Detail Page provides a comprehensive overview of the autotrader, offering users detailed information to help them make informed decisions. Although your page may currently only include specific fields such as brand, mileage, year, gearbox, fuel type, and price, you can still provide valuable information to potential buyers.
+
++ Comprehensive Autotrader Information:
+The Autotraders Detail Page ensures that users have access to crucial details about the autotrader, even with the limited fields available. Here's how you can provide valuable information:
+
+1. Brand: Displaying the brand, in this case "Renault," gives users a clear understanding of the manufacturer and helps them identify the specific make and model of the vehicle.
+
+2. Mileage: Including the mileage of the autotrader, such as "11,200 miles," informs potential buyers about the distance the vehicle has traveled, allowing them to assess its usage and overall condition.
+
+3. Year: Indicating the year of manufacture, such as "2020," provides users with an understanding of the autotrader's age and helps them gauge its technology, safety features, and potential wear and tear.
+
+4. Gearbox: Mentioning the type of gearbox, like "Manual," informs users about the transmission system of the autotrader, which can be a crucial factor for certain buyers.
+
+5. Fuel Type: Specifying the fuel type, such as "Hybrid," helps potential buyers understand the autotrader's energy source and its environmental impact.
+
+6. Price: Displaying the price, like "€23,900," allows users to evaluate the affordability and value of the autotrader based on their budget and financial considerations.
+
+
++ Post Owner Control and Management:
+1. In addition to providing detailed autotrader information, it's beneficial to equip post owners with control and management over their listings. This can include:
+
+2. Edit Post: Offering a link or button for post owners to edit the autotrader details enables them to make necessary updates to keep the listing accurate and up to date.
+
+3. Delete Post: Providing a convenient option to delete the post allows post owners to remove the autotrader listing when it's no longer available for sale, ensuring that potential buyers don't encounter outdated or unavailable listings.
+
+By including these features on the Autotraders Detail Page, enhance the user experience by offering comprehensive autotrader information and empowering post owners with control over their listings
+
+<br>
+
+![image](./docs/img/features/autotraderdetail.png)
 
 
 <br>
 
 ##  Autotraders Edit page
 
-- Provides capability to update an existing autotrader post.
+- The Autotraders Edit page is a dedicated page that allows users to update an existing autotrader post. It provides a convenient and user-friendly interface for modifying the details and information associated with a particular autotrader listing.
+
+
+* Updating Autotrader Post:
+On the Autotraders Edit page, users have the capability to make changes and updates to an existing autotrader post. This includes modifying various aspects of the autotrader listing, such as:
+
+1. Editable Fields: Users can update fields such as the autotrader's price, description, technical specifications, features, condition, contact information, and any other relevant details associated with the autotrader.
+
+2. Uploading New Images: Users may also have the option to upload new images or replace existing ones to provide potential buyers with updated visuals of the autotrader.
+
+3. Correcting Information: If there were any inaccuracies or mistakes in the original autotrader post, the Autotraders Edit page allows users to correct and update the information, ensuring that the listing provides accurate and reliable details.
+
+4. Saving Changes: Once users have made the desired updates to the autotrader post, they typically have the option to save the changes. This action ensures that the modified autotrader listing reflects the latest information and is visible to potential buyers.
+
+<br>
+
+![image](./docs/img/features/autotraderedit.png)
+
+
+<br>
+
 
 ## Profile page
 - The profile page offers sellers a valuable opportunity to effectively showcase and present their company to users. It serves as a platform where sellers can highlight their company's unique features, strengths, and offerings, allowing them to make a compelling impression on potential customers.
