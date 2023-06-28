@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img src="../autotraderss-react-frontend/docs/images/amiresponsive.jpg" alt="Image Description">
+  <img src="../autotraderss-react-frontend/docs/images/amiresponsive.jpg" alt="amiresponsive">
 </p>
 
 
@@ -101,6 +101,8 @@
 
 - The primary color utilized is rgb(49, 49, 156), which conveys a sense of tranquility and reliability. By employing this calm and trustworthy color, we aim to establish a foundation of trust with the user
 
+ ![image](../autotraderss-react-frontend/docs/images/color_scheme.png) 
+ 
    <p align="center">
   <img src="../autotraderss-react-frontend/docs/assets/features/color_scheme.jpg" alt="Color Scheme">
 </p>
