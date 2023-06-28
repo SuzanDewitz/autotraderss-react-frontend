@@ -1,8 +1,16 @@
 <p align="center">
-  <h1 style="font-size: 36px;">Autotrader API</h1>
+  <h1 style="font-size: 36px;">Autotrader A vehicle marketplace</h1>
 </p>
 
 <br>
+
+<p align="center">
+  <img src="../autotraderss-react-frontend/docs/assets/features/amiresponsive.jpg" alt="Image Description">
+</p>
+
+
+<br>
+
 
 - Autotrader is an innovative vehicle marketplace platform exclusively tailored for the sale and purchase of used cars. Our platform offers a seamless and user-friendly experience, empowering users to effortlessly create and browse listings. Here's why Autotrader is the ideal choice for all your car trading needs:
 
@@ -18,11 +26,11 @@
 
 <br>
 
-  - View the live project here.
+  - (View the live project here)[https://autotraderss-react.herokuapp.com/]
 
  - Links to the Backend API Project
-   - Backend - Repository
-   - Backend - Deployment
+   - [Backend - Repository](https://github.com/SuzanDewitz/autotraderss-drf-backend)
+   - [Backend - Deployment](https://autotraderss-drf-backend.herokuapp.com/)
 
 <br>
 
@@ -88,6 +96,17 @@
 
 ## Design
 
+### Color Scheme
+- I have made the decision to adopt a minimalistic design approach for the website. This choice aims to enhance the visibility of the site's content and detailed information, allowing them to captivate users more effectively.
+
+- The primary color utilized is rgb(49, 49, 156), which conveys a sense of tranquility and reliability. By employing this calm and trustworthy color, we aim to establish a foundation of trust with the user
+
+   <p align="center">
+  <img src="../autotraderss-react-frontend/docs/assets/features/color_scheme.jpg" alt="Color Scheme">
+</p>
+ 
+
+
 <br>
 
 |                   | AutoTrader Vehicle Marketplace |
@@ -108,11 +127,20 @@
 
 <br>
 
-API Integrations:
+### Typography
+
+- In this project, we have implemented Google Fonts to enhance the visual appeal of the text. Specifically, we have utilized a font called "Lato" for its unique characteristics and aesthetic appeal. To achieve a visually pleasing and balanced presentation, we have opted for the medium font weight variant of Lato.
+
+- Google Fonts provides a wide range of high-quality fonts that are easily accessible and compatible across different devices and browsers. By incorporating Lato with its medium weight, we aim to create a stylistic impression that complements the overall design of the project.
+
+- API Integrations:
 The "API Integrations" component represents the connections between the backend and frontend systems through APIs. It includes the integration points involved in your Autotrader marketplace, such as Autotrader data retrieval from external sources or communication between the frontend and backend servers.
 
-Integration Points:
+- Integration Points:
 The "Integration Points" section highlights three types of integrations in your Autotrader marketplace:
+
+### Wireframes
+A separate document for wireframes can be found here.
 
 1. Backend-Frontend API:
    Describe the API connection between the backend and frontend systems in your project. This may include data exchange, communication, or any other integration points specific to your application architecture.
@@ -161,16 +189,6 @@ The "User Roles" section highlights five different user roles in your Autotrader
 
 Contact Us:
 The "Contact Us" section includes contact details for users to get in touch with the Autotrader marketplace. an email address, phone number, and address.
-
-<br>
-
-### Color Scheme 
-
-- I have opted for a minimalist design approach for the website, aiming to emphasize the content and detailed information to provide an exceptional user experience. By utilizing a clean and uncluttered design, the focus remains on delivering valuable information to users.
-
-- The primary color chosen for the website is rgb(49, 49, 156), which exudes a sense of tranquility and reliability. This carefully selected color scheme aims to instill trust and confidence in users, ensuring a positive interaction with the platform.
-
-- By employing a minimalistic design and utilizing a calming color palette, we strive to create a visually appealing and user-centric website that allows the content to shine and fosters a trustworthy environment for our users.
  
 <br>
 
@@ -178,22 +196,23 @@ The "Contact Us" section includes contact details for users to get in touch with
 
 <br>
 
-## Typography
-
-- Google Fonts was used for the font in the project. The name of the font is Lato with a medium font weight for a stylistic impression.
-
-
-## Wireframes
-
-- A separate document for wireframes can be found here.
-
 ## Features
 
 ### Navbar & Search
 
- - Contains the necessary links for navigation throughout the site.
- - Updates links based on user state.
- - The searchbar makes it possible search among the various listings.
+
+- The navbar serves as a crucial element for easy navigation throughout the site. It includes essential links that allow users to explore different sections and pages of the website conveniently. Whether it's accessing specific categories, browsing through listings, or accessing account-related information, the navbar provides a streamlined way to navigate the site.
+
+- The navbar also dynamically updates its links based on the user's state. For example, if a user is logged in, they may see links related to their account, such as profile, settings, or saved items. On the other hand, if a user is not logged in, the navbar may display links for login or registration.
+
+- Additionally, the navbar often incorporates a search bar. This search functionality enables users to search among the various listings available on the site. By simply entering keywords or specific criteria into the search bar, users can quickly find relevant listings, making their browsing experience more efficient and tailored to their preferences.
+
+Overall, the combination of a well-designed navbar and search functionality enhances the user experience by providing intuitive navigation and efficient access to desired content.
+
+<p align="center">
+  <img src="../autotraderss-react-frontend/docs/assets/features/nav_searchbar.jpg" alt="Navbar & Search">
+</p>
+
 
 <br>
 
