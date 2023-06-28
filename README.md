@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img src="../autotraderss-react-frontend/docs/assets/features/amiresponsive.jpg" alt="Image Description">
+  <img src="../autotraderss-react-frontend/docs/images/amiresponsive.jpg" alt="Image Description">
 </p>
 
 
@@ -210,7 +210,7 @@ The "Contact Us" section includes contact details for users to get in touch with
 Overall, the combination of a well-designed navbar and search functionality enhances the user experience by providing intuitive navigation and efficient access to desired content.
 
 <p align="center">
-  <img src="../autotraderss-react-frontend/docs/assets/features/nav_searchbar.jpg" alt="Navbar & Search">
+  <img src="../docs/assets/features/nav_searchbar.jpg" alt="Navbar & Search">
 </p>
 
 
