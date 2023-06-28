@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="../autotraderss-react-frontend/docs/images/amiresponsive.jpg" alt="amiresponsive">
+  <img src="./docs/img/features/amiresponsive.png" alt="amiresponsive">
 </p>
 
 
@@ -30,7 +30,8 @@
 
 <br>
 
-  - (View the live project here)[https://autotraderss-react.herokuapp.com]
+  - [View the live project here](https://autotraderss-react.herokuapp.com)
+
 
  - Links to the Backend API Project
    - [Backend - Repository](https://github.com/SuzanDewitz/autotraderss-drf-backend)
@@ -105,7 +106,7 @@
 
 - The primary color utilized is rgb(49, 49, 156), which conveys a sense of tranquility and reliability. By employing this calm and trustworthy color, we aim to establish a foundation of trust with the user
 
- ![image](../autotraderss-react-frontend/docs/images/color_scheme.png) 
+ ![image](./docs/img/features/color_scheme.png) 
  
    <p align="center">
   <img src="../autotraderss-react-frontend/docs/assets/features/color_scheme.jpg" alt="Color Scheme">
@@ -219,6 +220,7 @@ Overall, the combination of a well-designed navbar and search functionality enha
   <img src="../docs/assets/features/nav_searchbar.jpg" alt="Navbar & Search">
 </p>
 
+![image](./docs/img/features/nav_searchbar.png)
 
 <br>
 
