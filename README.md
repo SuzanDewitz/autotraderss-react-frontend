@@ -4,6 +4,10 @@
 
 <br>
 
+
+ ![image](./docs/img/features/amiresponsive.png)
+
+
 <p align="center">
   <img src="../autotraderss-react-frontend/docs/images/amiresponsive.jpg" alt="amiresponsive">
 </p>
