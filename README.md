@@ -30,7 +30,7 @@
 
 <br>
 
-  - (View the live project here)[https://autotraderss-react.herokuapp.com/]
+  - (View the live project here)[https://autotraderss-react.herokuapp.com]
 
  - Links to the Backend API Project
    - [Backend - Repository](https://github.com/SuzanDewitz/autotraderss-drf-backend)
