@@ -70,7 +70,7 @@ function Autotrader(props) {
   };
 
   const handleEdit = () => {
-    history.push(`/cars/${id}/edit`);
+    history.push(`/autotraders/${id}/edit`);
   };
 
   // Delete autotrader posting
