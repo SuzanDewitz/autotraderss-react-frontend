@@ -55,7 +55,19 @@ The JSX code underwent thorough validation and continuous refinement throughout 
 
 ### CSS
 
-To ensure there were no syntax errors, the W3C CSS Validator Service was used to validate the project's custom CSS files.
++ [W3C Markup Validator](https://validator.w3.org/)
+  + No errors or warnings that are relevant was shown<br>
+
+  ![image](./img/validator/html-index.png)
+
+<br>
+
++ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+  + No errors or warnings that are relevant was shown<br>
+![image](./img/validator/css-home.png)
+
+<br>
+
 
 ### Lighthouse Scores
 
@@ -74,3 +86,14 @@ The Lighthouse Scores showed an overall high performance in terms of accessibili
 The website was thoroughly tested using the [responsivetesttool.](https://responsivetesttool.com/)
 
 Return to [README.md](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/README.md)
+
+
+
+
+
+[Return to README.md](../README.md)
+<br>
+<br>
+
+
+[Back to top](#top)
