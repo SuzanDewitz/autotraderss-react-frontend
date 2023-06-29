@@ -1,35 +1,36 @@
-<p align="center">
-  <h1 style="font-size: 36px;">Autotrader A vehicle marketplace</h1>
-</p>
+
+<h1 style="font-size: 36px; text-align: center;">Autotrader A vehicle marketplace</h1>
 
 <br>
-
-
 
 <p align="center">
   <img src="./docs/img/features/amiresponsive.png" alt="amiresponsive">
 </p>
 
-
 <br>
 
 
-- Autotrader is an innovative vehicle marketplace platform exclusively tailored for the sale and purchase of used cars. Our platform offers a seamless and user-friendly experience, empowering users to effortlessly create and browse listings. Here's why Autotrader is the ideal choice for all your car trading needs:
+- Autotrader is an innovative vehicle marketplace platform exclusively tailored for the sale and purchase of used cars. Our 
+  platform offers a seamless and user-friendly experience, empowering users to effortlessly create and browse listings. Here's why Autotrader is the ideal choice for all your car trading needs:
 
-- Easy Listing Creation: Autotrader provides a simple and intuitive interface for users to create their own listings to sell their used cars. With just a few steps, sellers can showcase their vehicles with detailed descriptions, high-quality images, and relevant specifications to attract potential buyers.
+- Easy Listing Creation: Autotrader provides a simple and intuitive interface for users to create their own listings to sell  
+  their used cars. With just a few steps, sellers can showcase their vehicles with detailed descriptions, high-quality images, and relevant specifications to attract potential buyers.
 
-- Extensive Car Search: As a visitor on Autotrader, you can easily search for used cars based on your specific requirements. Our platform offers advanced search filters, allowing you to refine your search by make, model, year, mileage, and more. Find your dream car in no time!
+- Extensive Car Search: As a visitor on Autotrader, you can easily search for used cars based on your specific requirements. Our 
+  platform offers advanced search filters, allowing you to refine your search by make, model, year, mileage, and more. Find your dream car in no time!
 
-- Enhanced User Features: By registering on Autotrader, users gain access to a range of additional features to enhance their car trading experience. You can save your favorite cars, enabling easy access and comparison of the vehicles you're most interested in. Additionally, you can follow specific car dealerships to stay updated on their latest inventory, ensuring you never miss out on a great deal.
+- Enhanced User Features: By registering on Autotrader, users gain access to a range of additional features to enhance their car 
+  trading experience. You can save your favorite cars, enabling easy access and comparison of the vehicles you're most interested in. Additionally, you can follow specific car dealerships to stay updated on their latest inventory, ensuring you never miss out on a great deal.
 
-- Seamless Frontend Experience: Autotrader's frontend is built using the React framework, ensuring a modern and responsive user interface. The frontend seamlessly connects and interacts with the backend API through efficient HTTP requests, providing a smooth and enjoyable user experience.
+- Seamless Frontend Experience: Autotrader's frontend is built using the React framework, ensuring a modern and responsive 
+  user interface. The frontend seamlessly connects and interacts with the backend API through efficient HTTP requests, providing a smooth and enjoyable user experience.
 
-- Autotrader is committed to simplifying the process of buying and selling used cars, offering a reliable and secure platform for both buyers and sellers. Join Autotrader today and embark on a journey of hassle-free car trading.
+- Autotrader is committed to simplifying the process of buying and selling used cars, offering a reliable and secure platform for 
+  both buyers and sellers. Join Autotrader today and embark on a journey of hassle-free car trading.
 
 <br>
 
   - [View the live project here](https://autotraderss-react.herokuapp.com)
-
 
  - Links to the Backend API Project
    - [Backend - Repository](https://github.com/SuzanDewitz/autotraderss-drf-backend)
@@ -69,30 +70,38 @@
 
 ## User Experience (UX)
 
-- Welcome to Autotrader, the ultimate destination for car enthusiasts and buyers. Our goal is to provide a seamless and efficient platform for individuals looking to buy or sell cars. With Autotrader, you can enjoy the following features:
+- Welcome to Autotrader, the ultimate destination for car enthusiasts and buyers. Our goal is to provide a seamless and efficient 
+ platform for individuals looking to buy or sell cars. With Autotrader, you can enjoy the following features:
 
-+ Hassle-Free Car Listings: Autotrader offers a user-friendly interface that allows sellers to effortlessly create captivating car listings. Our intuitive posting system ensures that sellers can showcase their vehicles with compelling descriptions and high-quality images.
++ Hassle-Free Car Listings: Autotrader offers a user-friendly interface that allows sellers to effortlessly create captivating  
+  car listings. Our intuitive posting system ensures that sellers can showcase their vehicles with compelling descriptions and high-quality images.
 
-+ Advanced Search Functionality: Finding your dream car is made easy with Autotrader's advanced search filters. You can refine your search based on specific criteria such as make, model, year, mileage, and more. Our powerful search engine ensures that you find the perfect match for your preferences.
++ Advanced Search Functionality: Finding your dream car is made easy with Autotrader's advanced search filters. You can refine 
+  your search based on specific criteria such as make, model, year, mileage, and more. Our powerful search engine ensures that you find the perfect match for your preferences.
 
-+ Personalized Car Collections: As a registered user, you have the convenience of saving cars to your personalized collection. This feature allows you to keep track of your favorite options, compare them side by side, and make an informed decision when it's time to buy.
++ Personalized Car Collections: As a registered user, you have the convenience of saving cars to your personalized 
+collection. This feature allows you to keep track of your favorite options, compare them side by side, and make an informed decision when it's time to buy.
 
-+ Seller Profiles: Autotrader provides comprehensive seller profiles, allowing sellers to showcase their inventory and provide detailed information about each car. This way, buyers can get a complete picture of the vehicles and make well-informed decisions.
++ Seller Profiles: Autotrader provides comprehensive seller profiles, allowing sellers to showcase their inventory and provide 
+  detailed information about each car. This way, buyers can get a complete picture of the vehicles and make well-informed decisions.
 
-+ At Autotrader, we are committed to creating a seamless car trading experience, connecting buyers and sellers in a user-friendly and secure online marketplace. Experience the future of car trading with Autotrader today!
++ At Autotrader, we are committed to creating a seamless car trading experience, connecting buyers and sellers in a user-friendly 
+  and secure online marketplace. Experience the future of car trading with Autotrader today!
 
 
 <br>
 
 ## User Stories
 
-- The user stories are readily available in the GitHub repository, neatly grouped into Epics for enhanced organization. Each user story can be viewed on the project's Kanban board, providing a clear visual representation of the project's progress. To delve deeper into the details of each user story, including acceptance criteria and associated tasks, simply open the corresponding issue in the repository. For comprehensive documentation, a separate file has been created to house all user stories, ensuring convenient access and a thorough understanding of the project requirements.
+- The user stories are readily available in the GitHub repository, neatly grouped into Epics for enhanced organization. Each user 
+  story can be viewed on the project's [Kanban board](https://github.com/users/SuzanDewitz/projects/3/views/5) , providing a clear visual representation of the project's progress. To delve deeper into the details of each user story, including acceptance criteria and associated tasks, simply open the corresponding issue in the repository. For comprehensive documentation, a separate file has been created to house all user stories, ensuring convenient access and a thorough understanding of the project requirements.
 
 <br>
 
 ## Agile methodology
 
-- During the project development, I embraced an Agile Methodology, leveraging the powerful capabilities of GitHub Projects to create User Stories. Each User Story was meticulously crafted into an issue, encompassing clear acceptance criteria and associated tasks. To ensure streamlined organization, all User Stories were grouped into Milestones, representing the corresponding Epics, following the MOSCOW prioritization technique. For a comprehensive overview of the project's progress and workflow, I invite you to explore our dynamic Kanban board, which can be accessed here.
+- During the project development, I embraced an Agile Methodology, leveraging the powerful capabilities of GitHub Projects to     
+  create User Stories. Each User Story was meticulously crafted into an issue, encompassing clear acceptance criteria and associated tasks. To ensure streamlined organization, all User Stories were grouped into Milestones, representing the corresponding Epics, following the MOSCOW prioritization technique. For a comprehensive overview of the project's progress and workflow, I invite you to explore our dynamic Kanban board, which can be accessed here.
 
 
 <br>
@@ -122,36 +131,34 @@
 
 <br>
 
-
 ![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/0a12ff39-7396-4742-a940-f36e4d58036a)
-
-
 
 <br>
 
 ### Typography
 
-- In this project, we have implemented Google Fonts to enhance the visual appeal of the text. Specifically, we have utilized a font called "Lato" for its unique characteristics and aesthetic appeal. To achieve a visually pleasing and balanced presentation, we have opted for the medium font weight variant of Lato.
+- In this project, I have implemented Google Fonts to enhance the visual appeal of the text. Specifically, we have utilized a  
+  font called "Lato" for its unique characteristics and aesthetic appeal. To achieve a visually pleasing and balanced presentation, we have opted for the medium font weight variant of Lato.
 
-- Google Fonts provides a wide range of high-quality fonts that are easily accessible and compatible across different devices and browsers. By incorporating Lato with its medium weight, we aim to create a stylistic impression that complements the overall design of the project.
+- Google Fonts provides a wide range of high-quality fonts that are easily accessible and compatible across different devices and 
+  browsers. By incorporating Lato with its medium weight, we aim to create a stylistic impression that complements the overall design of the project.
 
 - API Integrations:
-The "API Integrations" component represents the connections between the backend and frontend systems through APIs. It includes the integration points involved in your Autotrader marketplace, such as Autotrader data retrieval from external sources or communication between the frontend and backend servers.
+  The "API Integrations" component represents the connections between the backend and frontend systems through APIs. It includes the integration points involved in your Autotrader marketplace, such as Autotrader data retrieval from external sources or communication between the frontend and backend servers.
 
-- Integration Points:
-The "Integration Points" section highlights three types of integrations in your Autotrader marketplace:
+<br>
 
 ### Wireframes
 A separate document for wireframes can be found here.
 
 1. Backend-Frontend API:
-   Describe the API connection between the backend and frontend systems in your project. This may include data exchange, communication, or any other integration points specific to your application architecture.
+   Describe the API connection between the backend and frontend systems in the project. This include data exchange, communication, integration points specific to the application architecture.
 
 2. External Data Sources:
-  the retrieves data from external sources, such as Autotrader details or pricing information, mention them here. Specify the types of data sources and their role in providing information to your application.
+  the retrieves data from external sources, such as Autotrader details or pricing information, mention them here. Specify the types of data sources and their role in providing information to the application.
 
 3. Third-Party APIs:
-   the incorporates third-party APIs for additional functionalities, such as geolocation services, image processing, mention them in this section.
+   the incorporates third-party APIs for additional functionalities, such as geolocation services, image processing, which I mention them in this section.
 
 Key Features:
 The "Key Features" section highlights the main features or functionalities that make the Autotrader marketplace unique and appealing to users.
@@ -160,19 +167,19 @@ The "Key Features" section highlights the main features or functionalities that 
    Describe any advanced search functionality that allows users to search for Autotrader based on various criteria such as make, model, year, price range, location, etc.
 
 2. User Profiles:
-   Explain how users can create profiles and manage their information, including personal details, saved searches, and favorite Autotrader.
+   Explain how users can create profiles and manage their information, including personal details, saved searches, and favorite car.
 
 3. Autotrader Listings:
-   Highlight the ability for users to create listings to sell their used cars, and for visitors to browse and view detailed information about available cars.
+  The Highlight the ability for users to create listings to sell their used cars, and for visitors to browse and view detailed information about available cars.
 
 4. Saved Favorites:
    Emphasize the feature that enables users to save their favorite Autotrader and easily access them later for quick reference.
 
 5. Follow Dealerships:
-   Describe how users can choose to follow specific car dealerships on Autotrader to stay updated on their latest inventory and offerings.
+   This describes how users can choose to follow specific car dealerships on Autotrader to stay updated on their latest inventory and offerings.
 
-User Roles:
-The "User Roles" section highlights five different user roles in your Autotrader marketplace:
++ User Roles:
+  The "User Roles" section highlights five different user roles in your Autotrader marketplace:
 
 1. Visitor:
    Represents users who are not logged in to the platform. They can browse and search for Autotrader but have limited access to certain features and functionalities.
@@ -181,7 +188,7 @@ The "User Roles" section highlights five different user roles in your Autotrader
    Represents users who are interested in purchasing an Autotrader from the marketplace. They can view Autotrader listings, save favorites, and contact sellers.
 
 3. Seller:
-   Represents users who want to sell their used Autotrader on the platform. They can create and manage their listings, communicate with potential buyers, and complete sales transactions.
+   Represents users who want to sell their used car on the platform. They can create and manage their listings, communicate with potential buyers.
 
 4. Registered User:
    Represents users who have registered and created an account on the Autotrader marketplace. They have additional benefits such as personalized profiles, saved searches, and enhanced communication features.
@@ -189,10 +196,16 @@ The "User Roles" section highlights five different user roles in your Autotrader
 5. Admin:
    Represents the administrative role or staff members who have special privileges to manage and moderate the platform, including user management, listing verification, and handling disputes.
 
-Contact Us:
-The "Contact Us" section includes contact details for users to get in touch with the Autotrader marketplace. an email address, phone number, and address.
+6. Contact Us:
+   The "Contact Us" section includes contact details for users to get in touch with the Autotrader marketplace. an email address, phone number, and address.
  
 <br>
+
+ <p align="center">
+  <img src="./docs/img/features/contact.png" alt="Contact Image">
+</p>
+
+ <br>
 
 [Back to top](#top)
 
@@ -202,18 +215,18 @@ The "Contact Us" section includes contact details for users to get in touch with
 
 ### Navbar & Search
 
+- The navbar serves as a crucial element for easy navigation throughout the site. It allow users to explore different 
+  sections and pages of the website conveniently. Whether it's accessing specific categories, browsing through listings, or accessing account-related information, the navbar provides a streamlined way to navigate the site.
 
-- The navbar serves as a crucial element for easy navigation throughout the site. It includes essential links that allow users to explore different sections and pages of the website conveniently. Whether it's accessing specific categories, browsing through listings, or accessing account-related information, the navbar provides a streamlined way to navigate the site.
+- When a user opens the AutoTrader page, they cannot save other people's cars without logging in. They are required to log in 
+  first in order to save cars and also have the option to follow them. The navbar dynamically updates its links based on the user's state. For instance, if a user is logged in, they will see related to their account, such as profile, follow, unfollow, and saved items. On the other hand, if a user is not logged in, they will not be able to save the cars they are interested in.
 
-- The navbar also dynamically updates its links based on the user's state. For example, if a user is logged in, they may see links related to their account, such as profile, settings, or saved items. On the other hand, if a user is not logged in, the navbar may display links for login or registration.
+- Additionally, the navbar incorporates a search bar. This search functionality  enables users to search among the various 
+  listings available on the site. By simply entering keywords or specific criteria into the search bar, users can quickly find relevant listings, making their browsing experience more efficient and tailored to their preferences.
 
-- Additionally, the navbar often incorporates a search bar. This search functionality enables users to search among the various listings available on the site. By simply entering keywords or specific criteria into the search bar, users can quickly find relevant listings, making their browsing experience more efficient and tailored to their preferences.
+  Overall, the combination of a well-designed navbar and search functionality enhances the user experience by providing intuitive navigation and efficient access to desired content.
 
-Overall, the combination of a well-designed navbar and search functionality enhances the user experience by providing intuitive navigation and efficient access to desired content.
-
-<p align="center">
-  <img src="../docs/nav_searchbar.jpg" alt="Navbar & Search">
-</p>
+<br>
 
 ![image](./docs/img/features/nav_searchbar.png)
 
@@ -221,37 +234,60 @@ Overall, the combination of a well-designed navbar and search functionality enha
 
 ## Autotraders Listings:
 
--  The autotraders listings section showcases a comprehensive collection of available autotraders. It serves as a centralized platform for users to browse and explore various autotraders that are currently on the market. By aggregating a wide range of autotrader listings, it offers convenience and ease of access for potential buyers or interested individuals looking to explore different options.
+- The autotraders listings section showcases a comprehensive collection of available autotraders. It serves as a centralized 
+  platform for users to browse and explore various autotraders that are currently on the market. By aggregating a wide range of autotrader listings, it offers convenience and ease of access for potential buyers or interested individuals looking to explore different options.
 
 - Vital Information:
-Each autotrader listing within the platform provides vital information to assist users in making informed decisions. This information typically includes essential details about the autotrader, such as:
+  Each autotrader listing within the platform provides vital information to assist users in making informed decisions. This information typically includes essential details about the autotrader, such as:
 
-1. Vehicle Specifications: The autotrader listing provides key details about the vehicle, such as the make, model, year of manufacture, mileage, engine type, and any additional features or modifications.
+1. Vehicle Specifications: The autotrader listing provides key details about the vehicle, such as the make, model, year of 
+  manufacture, mileage, engine type, and any additional features or modifications.
 
-2. Pricing: The listing displays the price of the autotrader, helping users evaluate whether it fits within their budget or price range.
+2. Pricing: The listing displays the price of the autotrader, helping users evaluate whether it fits within their budget 
+   or price range.
 
-3. Condition: The condition of the autotrader, whether it's new, used, or certified pre-owned, is often indicated. This allows users to consider the overall state and potential wear and tear of the vehicle.
+<br>
 
-4. Seller Contact Information: Contact details for the seller or dealership are typically provided, enabling interested users to reach out for further inquiries or to arrange a viewing or test drive.
+   <p style="text-align: center;">
+  <img src="./docs/img/features/keydetails.png" alt="Image">
+</p>
 
-5. Vehicle History: In some cases, autotrader listings may include the vehicle's history, such as accident reports, service records, or previous ownership details. This information offers insights into the autotrader's background and can influence the buyer's decision-making process.
+<br>
+
+3. Condition: The condition of the autotrader, it shows as follow for example if the user want check 
+  * car page, the following details are provided for the Mercedes-Benz B Electric Drive B:
+
+### AutoTrader Details:
+
+- **Brand:** Mercedes-Benz
+- **Mileage:** 12,400
+- **Year:** 2018
+- **Gearbox:** Automatic
+- **Fuel type:** Electric
+- **Price:** €14,380
+
+**Mercedes-Benz electric cars** offer a combination of luxury, performance, and sustainability. With their sleek designs, advanced electric powertrains, impressive performance, and practical ranges, they provide an attractive option for those seeking a greener and more enjoyable driving experience. Additionally, the integration of advanced technology, safety features, and a commitment to sustainability reflects Mercedes-Benz's dedication to innovation and a sustainable future.
+
+4. Seller Contact Information: Contact details for the seller or dealership are provided, enabling interested users to reach out 
+  for further inquiries or to arrange a viewing or test drive.
 
 By presenting these vital details within each autotrader listing, the platform aims to empower users with the necessary information to compare, evaluate, and make an informed choice when considering an autotrader purchase.
+
+
 
 <br>
 
 ![image](./docs/img/features/autotraderlist_page.png)
-
 
 <br>
 
 ## Autotraders Detail Page:
 
 - Autotraders Detail Page:
-The Autotraders Detail Page provides a comprehensive overview of the autotrader, offering users detailed information to help them make informed decisions. Although your page may currently only include specific fields such as brand, mileage, year, gearbox, fuel type, and price, you can still provide valuable information to potential buyers.
+The Autotraders Detail Page provides a comprehensive overview of the autotrader, offering users detailed information to help them make informed decisions. The page include specific fields such as brand, mileage, year, gearbox, fuel type, and price.
 
 + Comprehensive Autotrader Information:
-The Autotraders Detail Page ensures that users have access to crucial details about the autotrader, even with the limited fields available. Here's how you can provide valuable information:
+The Autotraders Detail Page ensures that users have access to crucial details about the car in autotrader page.
 
 1. Brand: Displaying the brand, in this case "Renault," gives users a clear understanding of the manufacturer and helps them identify the specific make and model of the vehicle.
 
@@ -267,20 +303,14 @@ The Autotraders Detail Page ensures that users have access to crucial details ab
 
 
 + Post Owner Control and Management:
-1. In addition to providing detailed autotrader information, it's beneficial to equip post owners with control and management over their listings. This can include:
+1. In addition to providing detailed autotrader information, it's beneficial to equip post owners with control and management over their listings. This include:
 
 2. Edit Post: Offering a link or button for post owners to edit the autotrader details enables them to make necessary updates to keep the listing accurate and up to date.
 
 3. Delete Post: Providing a convenient option to delete the post allows post owners to remove the autotrader listing when it's no longer available for sale, ensuring that potential buyers don't encounter outdated or unavailable listings.
 
-By including these features on the Autotraders Detail Page, enhance the user experience by offering comprehensive autotrader information and empowering post owners with control over their listings
+The page includes these features on the Autotraders Detail Page, enhancing the user experience by offering comprehensive autotrader information and empowering post owners with control over their listings
 
-<br>
-
-![image](./docs/img/features/autotraderdetail.png)
-
-
-<br>
 
 ##  Autotraders Edit page
 
@@ -302,14 +332,25 @@ On the Autotraders Edit page, users have the capability to make changes and upda
 
 ![image](./docs/img/features/autotraderedit.png)
 
-
 <br>
-
 
 ## Profile page
-- The profile page offers sellers a valuable opportunity to effectively showcase and present their company to users. It serves as a platform where sellers can highlight their company's unique features, strengths, and offerings, allowing them to make a compelling impression on potential customers.
+
+- The profile page plays a vital role in providing sellers with a valuable opportunity to showcase their company effectively. It serves as a dedicated platform where sellers can present their company in a comprehensive and compelling manner to users.
+
+- On the profile page, sellers have the ability to highlight their company's unique features, strengths, and offerings. This includes showcasing their products or services, sharing information about their brand story, mission, and values, and providing relevant contact details for potential customers to get in touch.
+
+- The profile page allows sellers to create a visually appealing and informative presentation of their company. They can include high-quality images, and to engage users and convey their brand identity effectively.
+
+- By leveraging the profile page, sellers can make a lasting impression on potential customers, increasing the likelihood of generating interest and driving conversions. It serves as a powerful tool for building trust, credibility, and establishing a strong online presence within the marketplace.
+
+- Overall, the profile page serves as a critical component of the platform, enabling sellers to effectively market and promote their company, ultimately leading to increased visibility and business opportunities.
 
 <br>
+
+ ![image](./docs/img/features/profile_page.png)
+
+ <br>
 
 ## Edit Profile
 
@@ -328,22 +369,28 @@ On the Autotraders Edit page, users have the capability to make changes and upda
 
 ## Saved Page
 
--The Saved page serves as a dedicated space where users can conveniently access and view all the cars they have saved. It acts as a personalized collection, allowing users to keep track of vehicles that have caught their interest or that they intend to revisit later. 
+- The Saved page serves as a dedicated space where users can conveniently access and view all the cars they have saved. 
+  It acts  as a personalized collection, allowing users to keep track of vehicles that have caught their interest or that they intend to revisit later. 
 -By providing a centralized location for saved cars, this page ensures that users can easily retrieve and review their preferred selections, simplifying the process of comparing and considering options when making purchasing decisions.
 
 <br>
 
 ## Future Features
 
--Enhanced Search Options and Filters: Expand the search capabilities by incorporating additional search options and filters based on various criteria. This will empower users to refine their search results and find cars that precisely meet their specific requirements.
+- Enhanced Search Options and Filters: Expand the search capabilities by incorporating additional search options and filters  
+  based on various criteria. This will empower users to refine their search results and find cars that precisely meet their specific requirements.
 
--Rating System for Buyers and Sellers: Introduce a rating system that enables buyers to rate their experiences with sellers. This feature promotes trust and credibility within the service, providing valuable feedback to other users and helping them make informed decisions when engaging with sellers.
+- Rating System for Buyers and Sellers: Introduce a rating system that enables buyers to rate their experiences with sellers.
+  This feature promotes trust and credibility within the service, providing valuable feedback to other users and helping them make informed decisions when engaging with sellers.
 
--Location Algorithm for Local Searches: Implement a location-based algorithm that allows users to search for cars and sellers within a certain distance from their specified location. This functionality enhances convenience by enabling users to find nearby options and facilitates localized transactions.
+- Location Algorithm for Local Searches: Implement a location-based algorithm that allows users to search for cars and sellers 
+  within a certain distance from their specified location. This functionality enhances convenience by enabling users to find nearby options and facilitates localized transactions.
 
--Image Gallery Functionality: Integrate an image gallery feature that allows sellers to upload multiple pictures of their cars. This expanded visual representation provides potential buyers with a more comprehensive view of the vehicles, aiding in their decision-making process.
+- Image Gallery Functionality: Integrate an image gallery feature that allows sellers to upload multiple pictures of their 
+  cars.This expanded visual representation provides potential buyers with a more comprehensive view of the vehicles, aiding in their decision-making process.
 
--Different Registration Roles: Enhance the registration process by introducing different roles based on whether users are representing a company or are private individuals. This distinction allows for tailored experiences, features, and functionalities based on the specific needs and preferences of different user types.
+- Different Registration Roles: Enhance the registration process by introducing different roles based on whether users are 
+  representing a company or are private individuals. This distinction allows for tailored experiences, features, and functionalities based on the specific needs and preferences of different user types.
 
 <br>
 
