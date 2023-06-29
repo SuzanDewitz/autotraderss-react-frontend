@@ -131,7 +131,7 @@ collection. This feature allows you to keep track of your favorite options, comp
 
 <br>
 
-![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/0a12ff39-7396-4742-a940-f36e4d58036a)
+![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/ba51d87e-2a6b-4bf9-95a7-c7771a236a80)
 
 <br>
 
