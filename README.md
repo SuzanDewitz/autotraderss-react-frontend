@@ -131,6 +131,8 @@ collection. This feature allows you to keep track of your favorite options, comp
 
 <br>
 
+![Alt text](image.png)
+
 ![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/ba51d87e-2a6b-4bf9-95a7-c7771a236a80)
 
 <br>
