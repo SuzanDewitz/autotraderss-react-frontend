@@ -434,7 +434,7 @@ On the Autotraders Edit page, users have the capability to make changes and upda
 
 ### Bugs
 #### Fixed Bugs
-  - Click here to view a list of fixed bugs that has been completed.
+  - [Click here](https://github.com/search?q=repo%3ASuzanDewitz%2Fautotraderss-react-frontend+fix&type=commits) to view a list of fixed bugs that has been completed.
 #### Remaining Bugs
   - No known remaining bugs.
 
