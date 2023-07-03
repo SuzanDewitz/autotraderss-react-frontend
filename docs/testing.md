@@ -73,20 +73,34 @@
 
 - The website was tested
  ![lighthouse_Desktop](./img/validator/Lighthouse_Desktoppp5.png)
+
+ <br>
+
 - The website was tested 
 ![lighthouse_profile](./img/validator/lighthouse_profile.png)
+
+<br>
+
+
 - The website was tested
  ![lighthouse_signin](./img/validator/lighthouse_sign_in.png)
+
+ <br>
+
+
 - The website was tested 
 ![lighthouse_signup](./img/validator/lighthouse_sign_up.png)
+
+<br>
+
+
 - The website was tested 
 ![lighthouse_uploadimage](./img/validator/lighthoust_uploadimage.png)
-- 
+
+
+<br>
 
   + Main Page Mobile
-
-
-- The website was tested 
 ![lighthouse_Mobile](./img/validator/Lighthouse_Mobilepp5.png)
 
 
