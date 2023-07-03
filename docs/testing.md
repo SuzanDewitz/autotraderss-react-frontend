@@ -58,8 +58,9 @@
 <br>
 
 
-  - ![css](./img/validator/pp5_css.png)
-  - ![html](./img/validator/pp5_html.png)
+   ![css](./img/validator/pp5_css.png)
+
+   ![html](./img/validator/pp5_html.png)
 
 
 <br>
@@ -70,6 +71,9 @@
 - The main pages of the deployed site was run through Lighthouse on Google Chrome.
 
    + Main Page Desktop
+
+   <br>
+
  ![lighthouse_Desktop](./img/validator/Lighthouse_Desktoppp5.png)
 
  <br>
@@ -97,6 +101,9 @@
 <br>
 
   + Main Page Mobile
+
+  <br>
+  
 ![lighthouse_Mobile](./img/validator/Lighthouse_Mobilepp5.png)
 
 
