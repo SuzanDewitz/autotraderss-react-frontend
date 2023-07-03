@@ -8,7 +8,7 @@
 - [Account](#account)
 - [Code Validation](#code-validation)
   - [JSX](#jsx)
-  - [Validator_Testing](#Validator Testing)
+  - [Validator_Testing](#Validator-Testing)
   - [Lighthouse Scores](#lighthouse-scores)
 
 ### Navigation
@@ -54,12 +54,11 @@
 ### Validator Testing
 - CSS files pass through the Jigsaw validator with no issues found.
   - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/)
-  - [W3C Markup Validator](https://validator.w3.org/) 
 
 <br>
 
 
-  - ![html](./img/validator/pp5_css.png)
+  - ![css](./img/validator/pp5_css.png)
   - ![html](./img/validator/pp5_html.png)
 
 
@@ -70,19 +69,25 @@
 
 - The main pages of the deployed site was run through Lighthouse on Google Chrome.
 
-   - Main Page Desktop
+   + Main Page Desktop
 
-- The website was tested [lighthouse_Desktop](./img/validator/Lighthouse_Desktoppp5.png)
-- The website was tested [lighthouse_profile](./img/validator/lighthouse_profile.png)
-- The website was tested [lighthouse_signin](./img/validator/lighthouse_sign_in.png)
-- The website was tested [lighthouse_signup](./img/validator/lighthouse_sign_up.png)
-- The website was tested [lighthouse_uploadimage](./img/validator/lighthoust_uploadimage.png)
+- The website was tested
+ ![lighthouse_Desktop](./img/validator/Lighthouse_Desktoppp5.png)
+- The website was tested 
+![lighthouse_profile](./img/validator/lighthouse_profile.png)
+- The website was tested
+ ![lighthouse_signin](./img/validator/lighthouse_sign_in.png)
+- The website was tested 
+![lighthouse_signup](./img/validator/lighthouse_sign_up.png)
+- The website was tested 
+![lighthouse_uploadimage](./img/validator/lighthoust_uploadimage.png)
 - 
 
-  - Main Page Mobile
+  + Main Page Mobile
 
 
-- The website was tested [lighthouse_Mobile](./img/validator/Lighthouse_Mobilepp5.png)
+- The website was tested 
+![lighthouse_Mobile](./img/validator/Lighthouse_Mobilepp5.png)
 
 
 Return to [README.md](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/README.md)
