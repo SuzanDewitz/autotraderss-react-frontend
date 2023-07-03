@@ -430,7 +430,7 @@ On the Autotraders Edit page, users have the capability to make changes and upda
   <br>
   
   ## Testing
-   - A separate document for testing can be found here.
+   - A separate document for testing can be found [here](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/docs/testing.md).
 
 ### Bugs
 #### Fixed Bugs
@@ -502,10 +502,10 @@ To deploy the project, follow these steps:
   - The Moments tutorial by Code Institute was used to create the foundations on which I built upon to create the project.
 
 - **Media**
-  - The images used throughout the project are from
-  - [autohaus24](www.autohaus24.de)
-  - [sixtcarsales](https://www.sixtcarsales.de/)
-  - [ebay](www.ebay.de)
+  + The images used throughout the project are from
+    - [autohaus24](www.autohaus24.de)
+    - [sixtcarsales](https://www.sixtcarsales.de/)
+    - [ebay](www.ebay.de)
 
 ## Acknowledgements
  
