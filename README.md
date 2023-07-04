@@ -383,11 +383,11 @@ On the Autotraders Edit page, users have the capability to make changes and upda
 - Location Algorithm for Local Searches: Implement a location-based algorithm that allows users to search for cars and sellers 
   within a certain distance from their specified location. This functionality enhances convenience by enabling users to find nearby options and facilitates localized transactions.
 
-- Image Gallery Functionality: Integrate an image gallery feature that allows sellers to upload multiple pictures of their 
-  cars.This expanded visual representation provides potential buyers with a more comprehensive view of the vehicles, aiding in their decision-making process.
+- Image Gallery Functionality: Integrate an image gallery feature that allows sellers to upload multiple pictures of their cars.This expanded visual representation provides potential 
+  buyers with a more comprehensive view of the vehicles, aiding in their decision-making process.
 
-- Different Registration Roles: Enhance the registration process by introducing different roles based on whether users are 
-  representing a company or are private individuals. This distinction allows for tailored experiences, features, and functionalities based on the specific needs and preferences of different user types.
+- Different Registration Roles: Enhance the registration process by introducing different roles based on whether users are representing a company or are private individuals. 
+  This distinction allows for tailored experiences, features, and functionalities based on the specific needs and preferences of different user types.
 
 <br>
 
