@@ -22,3 +22,6 @@
 2. *As a*  user, I want to be able to log in to my account on Autotrader so that I can use the site's features and access my profile. Logging in will ensure the security of my account and provide a seamless experience across multiple sessions.
 3. *As a*  user, I want to be able to log out of my account on Autotrader so that I can keep my account secure and prevent unauthorized access.
 4. *As an*  admin, I want to be able to set the refresh rate for access tokens on Autotrader so that users are not logged out too frequently. This will optimize the balance between security and user convenience, ensuring a smooth user experience while maintaining account protection.
+
+
+Return to [README.md](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/README.md)

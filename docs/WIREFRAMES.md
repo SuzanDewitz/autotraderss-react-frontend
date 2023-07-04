@@ -30,3 +30,6 @@ Profile Page
 The Profile Page wireframe represents a user's profile or account page on Autotrader. It displays information about the user, such as their username, profile picture, and any additional details they have chosen to include. The profile page may also include sections for managing account settings, viewing activity history, and accessing personalized features.
 
 ![wirefram_mainpage](./img/wireframProfile_Page.PNG)
+
+
+Return to [README.md](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/README.md)
