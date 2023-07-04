@@ -1,5 +1,5 @@
 
-<h1 style="font-size: 36px; text-align: center;">Autotrader A vehicle marketplace</h1>
+<h1 style="font-size: 36px; text-align: center;">Autotrader - A Vehicle Marketplace</h1>
 
 <br>
 
@@ -30,11 +30,11 @@
 
 <br>
 
-  - [View the live project here](https://autotraderss-react.herokuapp.com)
+  - [VIEW THE LIVE PROJECT HERE](https://autotraderss-react.herokuapp.com)
 
  - Links to the Backend API Project
-   - [Backend - Repository](https://github.com/SuzanDewitz/autotraderss-drf-backend)
-   - [Backend - Deployment](https://autotraderss-drf-backend.herokuapp.com/)
+   - [BACKEND - REPOSITORY](https://github.com/SuzanDewitz/autotraderss-drf-backend)
+   - [BACKEND - DEPLOYMENT](https://autotraderss-drf-backend.herokuapp.com/)
 
 <br>
 
@@ -71,22 +71,22 @@
 ## User Experience (UX)
 
 - Welcome to Autotrader, the ultimate destination for car enthusiasts and buyers. Our goal is to provide a seamless and efficient 
- platform for individuals looking to buy or sell cars. With Autotrader, you can enjoy the following features:
+  platform for individuals looking to buy or sell cars. With Autotrader, you can enjoy the following features:
 
-+ Hassle-Free Car Listings: Autotrader offers a user-friendly interface that allows sellers to effortlessly create captivating  
-  car listings. Our intuitive posting system ensures that sellers can showcase their vehicles with compelling descriptions and high-quality images.
++ Hassle-Free Car Listings: Autotrader offers a user-friendly interface that allows sellers to effortlessly create captivating car listings. 
+  Our intuitive posting system ensures that sellers can showcase their vehicles with compelling descriptions and high-quality images.
 
-+ Advanced Search Functionality: Finding your dream car is made easy with Autotrader's advanced search filters. You can refine 
-  your search based on specific criteria such as make, model, year, mileage, and more. Our powerful search engine ensures that you find the perfect match for your preferences.
++ Advanced Search Functionality: Finding your dream car is made easy with Autotrader's advanced search filters. You can refine your search based 
+  on specific criteria such as make, model, year, mileage, and more. Our powerful search engine ensures that you find the perfect match for your preferences.
 
-+ Personalized Car Collections: As a registered user, you have the convenience of saving cars to your personalized 
-collection. This feature allows you to keep track of your favorite options, compare them side by side, and make an informed decision when it's time to buy.
++ Personalized Car Collections: As a registered user, you have the convenience of saving cars to your personalized collection. This feature allows you to 
+  keep track of your favorite options, compare them side by side, and make an informed decision when it's time to buy.
 
-+ Seller Profiles: Autotrader provides comprehensive seller profiles, allowing sellers to showcase their inventory and provide 
-  detailed information about each car. This way, buyers can get a complete picture of the vehicles and make well-informed decisions.
++ Seller Profiles: Autotrader provides comprehensive seller profiles, allowing sellers to showcase their inventory and provide detailed information about each car. 
+  This way, buyers can get a complete picture of the vehicles and make well-informed decisions.
 
-+ At Autotrader, we are committed to creating a seamless car trading experience, connecting buyers and sellers in a user-friendly 
-  and secure online marketplace. Experience the future of car trading with Autotrader today!
++ At Autotrader, I am committed to create a seamless car trading experience, connecting buyers and sellers in a user-friendly and secure online marketplace.
+ Experience the future of car trading with Autotrader today!
 
 
 <br>
@@ -100,16 +100,16 @@ collection. This feature allows you to keep track of your favorite options, comp
 
 ## Agile methodology
 
-- During the project development, I embraced an Agile Methodology, leveraging the powerful capabilities of GitHub Projects to     
-  create User Stories. Each User Story was meticulously crafted into an issue, encompassing clear acceptance criteria and associated tasks. To ensure streamlined organization, all User Stories were grouped into Milestones, representing the corresponding Epics, following the MOSCOW prioritization technique. For a comprehensive overview of the project's progress and workflow, I invite you to explore our dynamic Kanban board, which can be accessed here.
-
+- During the project development, I embraced an Agile Methodology, leveraging the powerful capabilities of GitHub Projects to create User Stories. Each User Story was meticulously 
+  crafted into an issue, encompassing clear acceptance criteria and associated tasks. To ensure streamlined organization, all User Stories were grouped into Milestones, representing the corresponding Epics, following the MOSCOW prioritization technique. For a comprehensive overview of the project's progress and workflow, I invite you to explore our dynamic Kanban board.
 
 <br>
 
 ## Design
 
 ### Color Scheme
-- I have made the decision to adopt a minimalistic design approach for the website. This choice aims to enhance the visibility of the site's content and detailed information, allowing them to captivate users more effectively.
+- I have made the decision to adopt a minimalistic design approach for the website. This choice aims to enhance the visibility of the site's content and detailed information, allowing them to 
+  captivate users more effectively.
 
 - The primary color utilized is rgb(49, 49, 156), which conveys a sense of tranquility and reliability. By employing this calm and trustworthy color, we aim to establish a foundation of trust with the user
    
@@ -131,27 +131,26 @@ collection. This feature allows you to keep track of your favorite options, comp
 
 <br>
 
-![Alt text](image.png)
-
 ![image](https://github.com/SuzanDewitz/autotraderss-react-frontend/assets/114075332/ba51d87e-2a6b-4bf9-95a7-c7771a236a80)
 
 <br>
 
 ### Typography
 
-- In this project, I have implemented Google Fonts to enhance the visual appeal of the text. Specifically, we have utilized a  
-  font called "Lato" for its unique characteristics and aesthetic appeal. To achieve a visually pleasing and balanced presentation, we have opted for the medium font weight variant of Lato.
+- In this project, I have implemented Google Fonts to enhance the visual appeal of the text. Specifically, we have utilized a font called "Lato" for its uniqu
+ characteristics and aesthetic appeal. To achieve a visually pleasing and balanced presentation, we have opted for the medium font weight variant of Lato.
 
-- Google Fonts provides a wide range of high-quality fonts that are easily accessible and compatible across different devices and 
-  browsers. By incorporating Lato with its medium weight, we aim to create a stylistic impression that complements the overall design of the project.
+- Google Fonts provides a wide range of high-quality fonts that are easily accessible and compatible across different devices and browsers. By incorporating
+  Lato with its medium weight, I aim to create a stylistic impression that complements the overall design of the project.
 
-- API Integrations:
-  The "API Integrations" component represents the connections between the backend and frontend systems through APIs. It includes the integration points involved in your Autotrader marketplace, such as Autotrader data retrieval from external sources or communication between the frontend and backend servers.
+- API Integrations:The "API Integrations" component represents the connections between the backend and frontend systems through APIs. It includes the integration 
+  points involved in your Autotrader marketplace, such as Autotrader data retrieval from external sources or communication between the frontend and backend servers.
 
 <br>
 
 ### Wireframes
 A separate document for wireframes can be found here.
+
 
 1. Backend-Frontend API:
    Describe the API connection between the backend and frontend systems in the project. This include data exchange, communication, integration points specific to the application architecture.
@@ -200,14 +199,10 @@ The "Key Features" section highlights the main features or functionalities that 
 
 6. Contact Us:
    The "Contact Us" section includes contact details for users to get in touch with the Autotrader marketplace. an email address, phone number, and address.
- 
-<br>
-
- <p align="center">
-  <img src="./docs/img/features/contact.png" alt="Contact Image">
-</p>
-
+  
  <br>
+
+
 
 [Back to top](#top)
 
