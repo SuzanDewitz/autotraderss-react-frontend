@@ -149,7 +149,7 @@
 <br>
 
 ### Wireframes
-A separate document for wireframes can be found here.
+A separate document for wireframes can be found [HERE](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/docs/WIREFRAMES.md).
 
 
 1. Backend-Frontend API:
@@ -161,7 +161,7 @@ A separate document for wireframes can be found here.
 3. Third-Party APIs:
    the incorporates third-party APIs for additional functionalities, such as geolocation services, image processing, which I mention them in this section.
 
-Key Features:
+#### Key Features:
 The "Key Features" section highlights the main features or functionalities that make the Autotrader marketplace unique and appealing to users.
 
 1. Advanced Search:
@@ -179,7 +179,7 @@ The "Key Features" section highlights the main features or functionalities that 
 5. Follow Dealerships:
    This describes how users can choose to follow specific car dealerships on Autotrader to stay updated on their latest inventory and offerings.
 
-+ User Roles:
+#### User Roles:
   The "User Roles" section highlights five different user roles in your Autotrader marketplace:
 
 1. Visitor:
@@ -215,13 +215,13 @@ The "Key Features" section highlights the main features or functionalities that 
 - The navbar serves as a crucial element for easy navigation throughout the site. It allow users to explore different 
   sections and pages of the website conveniently. Whether it's accessing specific categories, browsing through listings, or accessing account-related information, the navbar provides a streamlined way to navigate the site.
 
-- When a user opens the AutoTrader page, they cannot save other people's cars without logging in. They are required to log in 
-  first in order to save cars and also have the option to follow them. The navbar dynamically updates its links based on the user's state. For instance, if a user is logged in, they will see related to their account, such as profile, follow, unfollow, and saved items. On the other hand, if a user is not logged in, they will not be able to save the cars they are interested in.
+- When a user opens the AutoTrader page, they cannot save other people's cars without logging in. They are required to log in first in order to save cars and also have
+  the option to follow them. The navbar dynamically updates its links based on the user's state. For instance, if a user is logged in, they will see related to their account, 
+  such as profile, follow, unfollow, and saved items. On the other hand, if a user is not logged in, they will not be able to save the cars they are interested in.
 
-- Additionally, the navbar incorporates a search bar. This search functionality  enables users to search among the various 
-  listings available on the site. By simply entering keywords or specific criteria into the search bar, users can quickly find relevant listings, making their browsing experience more efficient and tailored to their preferences.
-
-  Overall, the combination of a well-designed navbar and search functionality enhances the user experience by providing intuitive navigation and efficient access to desired content.
+- Additionally, the navbar incorporates a search bar. This search functionality  enables users to search among the various listings available on the site. By simply entering 
+  keywords or specific criteria into the search bar, users can quickly find relevant listings, making their browsing experience more efficient and tailored to their preferences.Overall, 
+  the combination of a well-designed navbar and search functionality enhances the user experience by providing intuitive navigation and efficient access to desired content.
 
 <br>
 
@@ -237,11 +237,9 @@ The "Key Features" section highlights the main features or functionalities that 
 - Vital Information:
   Each autotrader listing within the platform provides vital information to assist users in making informed decisions. This information typically includes essential details about the autotrader, such as:
 
-1. Vehicle Specifications: The autotrader listing provides key details about the vehicle, such as the make, model, year of 
-  manufacture, mileage, engine type, and any additional features or modifications.
-
-2. Pricing: The listing displays the price of the autotrader, helping users evaluate whether it fits within their budget 
-   or price range.
+1. Vehicle Specifications: The autotrader listing provides key details about the vehicle, such as the make, model, year of manufacture, mileage, engine type, and any additional features 
+   or modifications.
+2. Pricing: The listing displays the price of the autotrader, helping users evaluate whether it fits within their budget or price range.
 
 <br>
 
@@ -265,8 +263,7 @@ The "Key Features" section highlights the main features or functionalities that 
 
 **Mercedes-Benz electric cars** offer a combination of luxury, performance, and sustainability. With their sleek designs, advanced electric powertrains, impressive performance, and practical ranges, they provide an attractive option for those seeking a greener and more enjoyable driving experience. Additionally, the integration of advanced technology, safety features, and a commitment to sustainability reflects Mercedes-Benz's dedication to innovation and a sustainable future.
 
-4. Seller Contact Information: Contact details for the seller or dealership are provided, enabling interested users to reach out 
-  for further inquiries or to arrange a viewing or test drive.
+4. Seller Contact Information: Contact details for the seller or dealership are provided, enabling interested users to reach out for further inquiries or to arrange a viewing or test drive.
 
 By presenting these vital details within each autotrader listing, the platform aims to empower users with the necessary information to compare, evaluate, and make an informed choice when considering an autotrader purchase.
 
@@ -280,11 +277,9 @@ By presenting these vital details within each autotrader listing, the platform a
 
 ## Autotraders Detail Page:
 
-- Autotraders Detail Page:
-The Autotraders Detail Page provides a comprehensive overview of the autotrader, offering users detailed information to help them make informed decisions. The page include specific fields such as brand, mileage, year, gearbox, fuel type, and price.
+- Autotraders Detail Page:The Autotraders Detail Page provides a comprehensive overview of the autotrader, offering users detailed information to help them make informed decisions. The page include specific fields such as brand, mileage, year, gearbox, fuel type, and price.
 
-+ Comprehensive Autotrader Information:
-The Autotraders Detail Page ensures that users have access to crucial details about the car in autotrader page.
++ Comprehensive Autotrader Information: The Autotraders Detail Page ensures that users have access to crucial details about the car in autotrader page.
 
 1. Brand: Displaying the brand, in this case "Renault," gives users a clear understanding of the manufacturer and helps them identify the specific make and model of the vehicle.
 
