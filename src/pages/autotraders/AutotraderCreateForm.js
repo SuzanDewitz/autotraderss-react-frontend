@@ -26,7 +26,7 @@ function AutotraderCreateForm() {
   
   const [autotraderData, setAutotraderData] = useState({
     title: "",
-    brand: "bmw",
+    brand: "audi",
     description: "",
     mileage: "",
     year: "",
@@ -118,18 +118,19 @@ function AutotraderCreateForm() {
           name="brand"
           value={brand}
           onChange={handleChange}
-        >
-          <option value="bmw">Bmw</option>
+        > 
+          <option value="toyota">Toyota</option>
+          <option value="audi">Bmw</option>
+          <option value="tesla">Tesla</option>
           <option value="mercedes-benz">Mercedes-benz</option>
           <option value="audi">Audi</option>
-          <option value="volkswagen">Volkswagen</option>
           <option value="volvo">Volvo</option>
           <option value="ford">Ford</option>
-          <option value="toyota">Toyota</option>
+          <option value="volkswagen">Volkswagen</option>
+          <option value="bmw">Bmw</option>
           <option value="honda">Honda</option>
           <option value="nissan">Nissan</option>
           <option value="mazda">Mazda</option>
-          <option value="tesla">Tesla</option>
           <option value="renault">Renault</option>
           <option value="peugeot">Peugeot</option>
         </Form.Control>
@@ -190,9 +191,9 @@ function AutotraderCreateForm() {
           name="gearbox"
           value={gearbox}
           onChange={handleChange}
-        >
-          <option value="automatic">Automatic</option>
+        > 
           <option value="manual">Manual</option>
+          <option value="automatic">Automatic</option>
         </Form.Control>
       </Form.Group>
       <Form.Group>
@@ -203,11 +204,11 @@ function AutotraderCreateForm() {
           name="fueltype"
           value={fueltype}
           onChange={handleChange}
-        >
-          <option value="petrol">Petrol</option>
-          <option value="diesel">Diesel</option>
+        >  
           <option value="electric">Electric</option>
+          <option value="petrol">Petrol</option>
           <option value="hybrid">Hybrid</option>
+          <option value="diesel">Diesel</option>
         </Form.Control>
       </Form.Group>
       <Form.Group>

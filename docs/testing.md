@@ -9,7 +9,7 @@
 - [Code Validation](#code-validation)
   - [JSX](#jsx)
   - [Validator_Testing](#Validator-Testing)
-  - [Lighthouse Scores](#lighthouse-scores)
+  - [Lighthouse_Report](#Lighthouse-Report)
 
 ### Navigation
 
@@ -103,7 +103,7 @@
   + Main Page Mobile
 
   <br>
-  
+
 ![lighthouse_Mobile](./img/validator/Lighthouse_Mobilepp5.png)
 
 
