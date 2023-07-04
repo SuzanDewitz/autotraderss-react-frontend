@@ -346,24 +346,46 @@ On the Autotraders Edit page, users have the capability to make changes and upda
 
 ## Edit Profile
 
--The "Edit Profile" feature enables sellers to effortlessly update their existing information. It provides a user-friendly interface where sellers can make modifications to their profiles, ensuring that their information remains accurate and up to date. 
-- This functionality allows sellers to maintain relevancy and present the most current and relevant details about their business to potential customers.
+- Edit Profile feature has been meticulously designed to facilitate sellers in effortlessly updating their existing information. It offers a user-friendly interface that empowers sellers 
+  to make modifications to their profiles with ease, guaranteeing the accuracy and up-to-dateness of their information.
 
+- This indispensable functionality enables sellers to preserve their relevancy in the market by consistently presenting the most current and pertinent details about their business to 
+  potential customers. By utilizing the "Edit Profile" feature, sellers can ensure that their profiles are always up to date, thereby maximizing their chances of attracting and 
+  engaging with prospective clients.
+
+<br>
+
+   ![image](./docs/img/features/editprofile_page.png)
 
 <br>
 
 ## Feed Page
 
-- The Feed page presents a curated collection of cars for sale, specifically tailored to the user's preferences. It showcases vehicles listed by the sellers whom the user is following. By aggregating and displaying these listings, the Feed page offers a convenient and centralized platform for users to stay up to date with the latest inventory from their preferred sellers.
-- This ensures that users never miss out on exciting car opportunities and allows them to effortlessly browse through a personalized selection of vehicles that match their interests.
+- The Feed page showcases a meticulously curated collection of cars for sale, meticulously tailored to the specific preferences of each user. This thoughtfully designed feature presents 
+  a comprehensive display of vehicles listed by the sellers whom the user follows, thereby offering a personalized and engaging experience.
+
+- By aggregating and intelligently organizing these listings, the Feed page serves as a convenient and centralized platform for users to stay constantly updated with the latest inventory 
+  from their preferred sellers. This ensures that users never miss out on exciting car opportunities and effortlessly provides them with a seamless browsing experience through 
+  a personalized selection of vehicles that perfectly align with their unique interests and preferences
 
 <br>
 
+![image](./docs/img/features/feedpage.png)
+
+<br>
+
+
 ## Saved Page
 
-- The Saved page serves as a dedicated space where users can conveniently access and view all the cars they have saved. 
-  It acts  as a personalized collection, allowing users to keep track of vehicles that have caught their interest or that they intend to revisit later. 
--By providing a centralized location for saved cars, this page ensures that users can easily retrieve and review their preferred selections, simplifying the process of comparing and considering options when making purchasing decisions.
+- The Saved page serves as a meticulously designed and dedicated space, providing users with a seamless and convenient access point to view all the cars they have saved. This feature 
+  acts as a personalized collection, offering users a platform to effortlessly keep track of vehicles that have captured their interest or that they intend to revisit at a later time.
+
+- By offering a centralized location for saved cars, this page ensures that users can effortlessly retrieve and review their preferred selections. This simplifies the process of comparing 
+  and considering options, making it easier for users to make informed purchasing decisions. With the Saved page, users can conveniently access their saved cars, enabling them to revisit and evaluate their choices in a streamlined manner.
+
+<br>
+
+![image](./docs/img/features/saved_page.png)
 
 <br>
 
