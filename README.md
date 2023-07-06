@@ -519,7 +519,7 @@ To deploy the project, follow these steps:
 
 - **Online Documentation**
   - React documentation
-  - React Bootstrap documentation and examples
+  - [React Bootstrap documentation and examples](https://react-bootstrap-v4.netlify.app/components/alerts/)
 
 - **Code**
   - The Moments tutorial by Code Institute was used to create the foundations on which I built upon to create the project.
@@ -529,10 +529,10 @@ To deploy the project, follow these steps:
     - [autohaus24](www.autohaus24.de)
     - [sixtcarsales](https://www.sixtcarsales.de/)
     - [ebay](www.ebay.de)
-    - [Balsamiq open here](https://balsamiq.cloud/)
-    - [convertio open here]https://convertio.co/png-webp/
-    - [tinypng open here]https://tinypng.com/)
-    - [diagrams open here](https://app.diagrams.net/)
+    - [Balsamiq](https://balsamiq.cloud/)
+    - [convertio](https://convertio.co/png-webp/)
+    - [tinypng](https://tinypng.com/)
+    - [diagrams](https://app.diagrams.net/)
 
 ## Acknowledgements
  
