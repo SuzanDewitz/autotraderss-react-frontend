@@ -525,10 +525,14 @@ To deploy the project, follow these steps:
   - The Moments tutorial by Code Institute was used to create the foundations on which I built upon to create the project.
 
 - **Media**
-  + The images used throughout the project are from
+  + The images and ideas used throughout the project are from
     - [autohaus24](www.autohaus24.de)
     - [sixtcarsales](https://www.sixtcarsales.de/)
     - [ebay](www.ebay.de)
+    - [Balsamiq open here](https://balsamiq.cloud/)
+    - [convertio open here]https://convertio.co/png-webp/
+    - [tinypng open here]https://tinypng.com/)
+    - [diagrams open here](https://app.diagrams.net/)
 
 ## Acknowledgements
  
