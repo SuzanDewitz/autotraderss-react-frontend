@@ -13,20 +13,20 @@
 - Autotrader is an innovative vehicle marketplace platform exclusively tailored for the sale and purchase of used cars. Our 
   platform offers a seamless and user-friendly experience, empowering users to effortlessly create and browse listings. Here's why Autotrader is the ideal choice for all your car trading needs:
 
-- Easy Listing Creation: Autotrader provides a simple and intuitive interface for users to create their own listings to sell  
-  their used cars. With just a few steps, sellers can showcase their vehicles with detailed descriptions, high-quality images, and relevant specifications to attract potential buyers.
+- Easy Listing Creation: Autotrader provides a simple and intuitive interface for users to create their own listings to sell their used cars. With just a few steps, sellers can showcase their
+  vehicles with detailed descriptions, high-quality images, and relevant specifications to attract potential buyers.
 
 - Extensive Car Search: As a visitor on Autotrader, you can easily search for used cars based on your specific requirements. Our 
   platform offers advanced search filters, allowing you to refine your search by make, model, year, mileage, and more. Find your dream car in no time!
 
-- Enhanced User Features: By registering on Autotrader, users gain access to a range of additional features to enhance their car 
-  trading experience. You can save your favorite cars, enabling easy access and comparison of the vehicles you're most interested in. Additionally, you can follow specific car dealerships to stay updated on their latest inventory, ensuring you never miss out on a great deal.
+- Enhanced User Features: By registering on Autotrader, users gain access to a range of additional features to enhance their car trading experience. You can save your favorite cars, enabling
+  easy access and comparison of the vehicles you're most interested in. Additionally, you can follow specific car dealerships to stay updated on their latest inventory, ensuring you never miss out on a great deal.
 
-- Seamless Frontend Experience: Autotrader's frontend is built using the React framework, ensuring a modern and responsive 
-  user interface. The frontend seamlessly connects and interacts with the backend API through efficient HTTP requests, providing a smooth and enjoyable user experience.
+- Seamless Frontend Experience: Autotrader's frontend is built using the React framework, ensuring a modern and responsive user interface. The frontend seamlessly connects and interacts with
+  the backend API through efficient HTTP requests, providing a smooth and enjoyable user experience.
 
-- Autotrader is committed to simplifying the process of buying and selling used cars, offering a reliable and secure platform for 
-  both buyers and sellers. Join Autotrader today and embark on a journey of hassle-free car trading.
+- Autotrader is committed to simplifying the process of buying and selling used cars, offering a reliable and secure platform for both buyers and sellers.
+  Join Autotrader today and embark on a journey of hassle-free car trading.
 
 <br>
 
