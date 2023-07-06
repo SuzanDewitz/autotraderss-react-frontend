@@ -533,14 +533,17 @@ To deploy the project, follow these steps:
 ## Acknowledgements
  
 I would like to express my sincere gratitude to the following individuals and communities who have been instrumental in the success of this project:
+- **My Husband**: I would like to extend my deepest appreciation to my husband, <a href="#" style="color: blue; text-decoration: none;">Dietmar Dewitz</a>, for his unwavering support, encouragement, and guidance throughout the development of all my projects.
+   His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
+ - **my husband's colleagues**: I would also like to express my sincere gratitude to <a href="#" style="color: blue; text-decoration: none;">Praveen Kasam</a>, one of my husband's colleagues, for his time and effort in reviewing my projects.
+   His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
+- **Grateful to my mentor**: <a href="#" style="color: blue; text-decoration: none;">Antonio Rodriguez</a> for his invaluable guidance and support throughout this project. 
+    His expertise and encouragement played a crucial role in my growth and success. Thankful for their unwavering support.
+- **Student Care Team**: I extend my heartfelt appreciation to the dedicated members of the Student Care Team who have provided guidance, assistance, and support during my studies.
+  Their expertise and responsiveness have been crucial in overcoming challenges and ensuring a smooth learning experience.
 
-- **My Husband**: I would like to extend my deepest appreciation to my husband, <a href="#" style="color: blue; text-decoration: none;">Dietmar Dewitz</a>, for his unwavering support, encouragement, and guidance throughout the development of all my projects. His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
- 
- - **my husband's colleagues**: I would also like to express my sincere gratitude to <a href="#" style="color: blue; text-decoration: none;">Praveen Kasam</a>, one of my husband's colleagues, for his time and effort in reviewing my projects. His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
-
-- **Student Care Team**: I extend my heartfelt appreciation to the dedicated members of the Student Care Team who have provided guidance, assistance, and support during my studies. Their expertise and responsiveness have been crucial in overcoming challenges and ensuring a smooth learning experience.
-
-- **Slack Community**: I would like to thank the vibrant and supportive Slack Community for their valuable contributions. The willingness of its members to share knowledge, provide feedback, and engage in meaningful discussions has played a significant role in my personal and professional growth.
+- **Slack Community**: I would like to thank the vibrant and supportive Slack Community for their valuable contributions. The willingness of its members to share knowledge, provide feedback, and engage in meaningful discussions has played
+   a significant role in my personal and professional growth.
 
 - **Classmates**: A special mention goes to my classmates, who have been an incredible source of inspiration and collaboration. The shared experiences, discussions, and feedback have greatly enriched my learning and development.
 
