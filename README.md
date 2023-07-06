@@ -88,19 +88,24 @@
 + At Autotrader, I am committed to create a seamless car trading experience, connecting buyers and sellers in a user-friendly and secure online marketplace.
  Experience the future of car trading with Autotrader today!
 
+<br>
+
+## User Stories
+
+- The user stories are readily available in the GitHub repository, neatly grouped into Epics for enhanced organization. This allows for easy tracking and management of project features. By organizing user stories into Epics, you can get
+  a clear visual representation of the project's progress and understand the high-level goals and themes.
+
+-To delve deeper into the details of each user story, including acceptance criteria and associated tasks, simply open the corresponding issue in the repository. Each user story is documented as an issue, providing a centralized location for
+ all relevant information. This allows project stakeholders and team members to have a comprehensive understanding of the requirements and the specific tasks involved in implementing each user story.
+
+- In addition to the issue-based documentation, a separate file has been created to house all user stories. This file serves as comprehensive documentation for the project, providing easy access to all user stories and their associated details.
+  It ensures that anyone reviewing the project can quickly gain a thorough understanding of the project's requirements without having to navigate through individual issue
 
 <br>
 
 #### User stories for the frontend can be found in a separate internal document [here](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/docs/USERSTORIES.md)
 ####  Kanban board for the frontend can be found in a separate internal document [here](https://github.com/users/SuzanDewitz/projects/3/views/1)
 ####  admin for the frontend can be found in a separate internal document [here](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/docs/img/admin.md)
-
-
-
-## User Stories
-
-- The user stories are readily available in the GitHub repository, neatly grouped into Epics for enhanced organization. Each user 
-  story can be viewed on the project's [Kanban board](https://github.com/users/SuzanDewitz/projects/3/views/5) , providing a clear visual representation of the project's progress. To delve deeper into the details of each user story, including acceptance criteria and associated tasks, simply open the corresponding issue in the repository. For comprehensive documentation, a separate file has been created to house all user stories, ensuring convenient access and a thorough understanding of the project requirements.
 
 <br>
 
