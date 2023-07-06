@@ -91,6 +91,12 @@
 
 <br>
 
+#### User stories for the frontend can be found in a separate internal document [here](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/docs/USERSTORIES.md)
+####  Kanban board for the frontend can be found in a separate internal document [here](https://github.com/users/SuzanDewitz/projects/3/views/5)
+####  admin for the frontend can be found in a separate internal document [here](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/docs/img/admin.md)
+
+
+
 ## User Stories
 
 - The user stories are readily available in the GitHub repository, neatly grouped into Epics for enhanced organization. Each user 
