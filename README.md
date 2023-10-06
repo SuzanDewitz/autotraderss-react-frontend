@@ -13,20 +13,20 @@
 - Autotrader is an innovative vehicle marketplace platform exclusively tailored for the sale and purchase of used cars. Our 
   platform offers a seamless and user-friendly experience, empowering users to effortlessly create and browse listings. Here's why Autotrader is the ideal choice for all your car trading needs:
 
-- Easy Listing Creation: Autotrader provides a simple and intuitive interface for users to create their own listings to sell  
-  their used cars. With just a few steps, sellers can showcase their vehicles with detailed descriptions, high-quality images, and relevant specifications to attract potential buyers.
+- Easy Listing Creation: Autotrader provides a simple and intuitive interface for users to create their own listings to sell their used cars. With just a few steps, sellers can showcase their
+  vehicles with detailed descriptions, high-quality images, and relevant specifications to attract potential buyers.
 
 - Extensive Car Search: As a visitor on Autotrader, you can easily search for used cars based on your specific requirements. Our 
   platform offers advanced search filters, allowing you to refine your search by make, model, year, mileage, and more. Find your dream car in no time!
 
-- Enhanced User Features: By registering on Autotrader, users gain access to a range of additional features to enhance their car 
-  trading experience. You can save your favorite cars, enabling easy access and comparison of the vehicles you're most interested in. Additionally, you can follow specific car dealerships to stay updated on their latest inventory, ensuring you never miss out on a great deal.
+- Enhanced User Features: By registering on Autotrader, users gain access to a range of additional features to enhance their car trading experience. You can save your favorite cars, enabling
+  easy access and comparison of the vehicles you're most interested in. Additionally, you can follow specific car dealerships to stay updated on their latest inventory, ensuring you never miss out on a great deal.
 
-- Seamless Frontend Experience: Autotrader's frontend is built using the React framework, ensuring a modern and responsive 
-  user interface. The frontend seamlessly connects and interacts with the backend API through efficient HTTP requests, providing a smooth and enjoyable user experience.
+- Seamless Frontend Experience: Autotrader's frontend is built using the React framework, ensuring a modern and responsive user interface. The frontend seamlessly connects and interacts with
+  the backend API through efficient HTTP requests, providing a smooth and enjoyable user experience.
 
-- Autotrader is committed to simplifying the process of buying and selling used cars, offering a reliable and secure platform for 
-  both buyers and sellers. Join Autotrader today and embark on a journey of hassle-free car trading.
+- Autotrader is committed to simplifying the process of buying and selling used cars, offering a reliable and secure platform for both buyers and sellers.
+  Join Autotrader today and embark on a journey of hassle-free car trading.
 
 <br>
 
@@ -88,13 +88,24 @@
 + At Autotrader, I am committed to create a seamless car trading experience, connecting buyers and sellers in a user-friendly and secure online marketplace.
  Experience the future of car trading with Autotrader today!
 
-
 <br>
 
 ## User Stories
 
-- The user stories are readily available in the GitHub repository, neatly grouped into Epics for enhanced organization. Each user 
-  story can be viewed on the project's [Kanban board](https://github.com/users/SuzanDewitz/projects/3/views/5) , providing a clear visual representation of the project's progress. To delve deeper into the details of each user story, including acceptance criteria and associated tasks, simply open the corresponding issue in the repository. For comprehensive documentation, a separate file has been created to house all user stories, ensuring convenient access and a thorough understanding of the project requirements.
+- The user stories are readily available in the GitHub repository, neatly grouped into Epics for enhanced organization. This allows for easy tracking and management of project features. By organizing user stories into Epics, you can get
+  a clear visual representation of the project's progress and understand the high-level goals and themes.
+
+- To delve deeper into the details of each user story, including acceptance criteria and associated tasks, simply open the corresponding issue in the repository. Each user story is documented as an issue, providing a centralized location for
+  all relevant information. This allows project stakeholders and team members to have a comprehensive understanding of the requirements and the specific tasks involved in implementing each user story.
+
+- In addition to the issue-based documentation, a separate file has been created to house all user stories. This file serves as comprehensive documentation for the project, providing easy access to all user stories and their associated details.
+  It ensures that anyone reviewing the project can quickly gain a thorough understanding of the project's requirements without having to navigate through individual issue
+
+<br>
+
+#### User stories for the frontend can be found in a separate internal document [here](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/docs/USERSTORIES.md)
+####  Kanban board for the frontend can be found in a separate internal document [here](https://github.com/users/SuzanDewitz/projects/3/views/1)
+####  admin for the frontend can be found in a separate internal document [here](https://github.com/SuzanDewitz/autotraderss-react-frontend/blob/main/docs/img/admin.md)
 
 <br>
 
@@ -508,28 +519,35 @@ To deploy the project, follow these steps:
 
 - **Online Documentation**
   - React documentation
-  - React Bootstrap documentation and examples
+  - [React Bootstrap documentation and examples](https://react-bootstrap-v4.netlify.app/components/alerts/)
 
 - **Code**
   - The Moments tutorial by Code Institute was used to create the foundations on which I built upon to create the project.
 
 - **Media**
-  + The images used throughout the project are from
+  + The images and ideas used throughout the project are from
     - [autohaus24](www.autohaus24.de)
     - [sixtcarsales](https://www.sixtcarsales.de/)
     - [ebay](www.ebay.de)
+    - [Balsamiq](https://balsamiq.cloud/)
+    - [convertio](https://convertio.co/png-webp/)
+    - [tinypng](https://tinypng.com/)
+    - [diagrams](https://app.diagrams.net/)
 
 ## Acknowledgements
  
 I would like to express my sincere gratitude to the following individuals and communities who have been instrumental in the success of this project:
+- **My Husband**: I would like to extend my deepest appreciation to my husband, <a href="#" style="color: blue; text-decoration: none;">Dietmar Dewitz</a>, for his unwavering support, encouragement, and guidance throughout the development of all my projects.
+   His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
+ - **my husband's colleagues**: I would also like to express my sincere gratitude to <a href="#" style="color: blue; text-decoration: none;">Praveen Kasam</a>, one of my husband's colleagues, for his time and effort in reviewing my projects.
+   His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
+- **Grateful to my mentor**: <a href="#" style="color: blue; text-decoration: none;">Antonio Rodriguez</a> for his invaluable guidance and support throughout this project. 
+    His expertise and encouragement played a crucial role in my growth and success. Thankful for their unwavering support.
+- **Student Care Team**: I extend my heartfelt appreciation to the dedicated members of the Student Care Team who have provided guidance, assistance, and support during my studies.
+  Their expertise and responsiveness have been crucial in overcoming challenges and ensuring a smooth learning experience.
 
-- **My Husband**: I would like to extend my deepest appreciation to my husband, <a href="#" style="color: blue; text-decoration: none;">Dietmar Dewitz</a>, for his unwavering support, encouragement, and guidance throughout the development of all my projects. His advanced knowledge and expertise were instrumental in helping me overcome numerous technical challenges. Without his invaluable feedback and patience, these projects would not have been possible.
- 
- - **my husband's colleagues**: I would also like to express my sincere gratitude to <a href="#" style="color: blue; text-decoration: none;">Praveen Kasam</a>, one of my husband's colleagues, for his time and effort in reviewing my projects. His feedback and suggestions were critical in shaping the final products. His expertise and critical evaluation helped me identify and fix issues that I would have otherwise missed.
-
-- **Student Care Team**: I extend my heartfelt appreciation to the dedicated members of the Student Care Team who have provided guidance, assistance, and support during my studies. Their expertise and responsiveness have been crucial in overcoming challenges and ensuring a smooth learning experience.
-
-- **Slack Community**: I would like to thank the vibrant and supportive Slack Community for their valuable contributions. The willingness of its members to share knowledge, provide feedback, and engage in meaningful discussions has played a significant role in my personal and professional growth.
+- **Slack Community**: I would like to thank the vibrant and supportive Slack Community for their valuable contributions. The willingness of its members to share knowledge, provide feedback, and engage in meaningful discussions has played
+   a significant role in my personal and professional growth.
 
 - **Classmates**: A special mention goes to my classmates, who have been an incredible source of inspiration and collaboration. The shared experiences, discussions, and feedback have greatly enriched my learning and development.
 
